@@ -2,7 +2,7 @@ import { z } from "zod";
 
 const envSchema = z.object({
   DATABASE_URL: z.string().url(),
-  HOST: z.string().default("127.0.0.1"),
+  HOST: z.string().default("0.0.0.0"),
   PORT: z.coerce.number().int().min(1).max(65_535).default(8080),
   APP_ENV: z.enum(["development", "test", "production"]).default("development"),
   GOOGLE_CLIENT_ID: z.string().min(1),
