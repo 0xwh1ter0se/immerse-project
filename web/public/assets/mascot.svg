@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="240" viewBox="0 0 320 240" role="img" aria-label="Mersi, maskot Immerse: dua baris subtitle">
+  <!-- baris atas: bahasa target -->
+  <rect x="38" y="48" width="244" height="92" rx="22" fill="#FFD9E8" stroke="#0F0F0F" stroke-width="5"/>
+  <circle cx="126" cy="94" r="12" fill="#0F0F0F"/>
+  <circle cx="194" cy="94" r="12" fill="#0F0F0F"/>
+  <circle cx="130" cy="90" r="4" fill="#FFF"/>
+  <circle cx="198" cy="90" r="4" fill="#FFF"/>
+  <path d="M148 120 q11 9 22 0" stroke="#0F0F0F" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- baris bawah: terjemahan -->
+  <rect x="70" y="144" width="180" height="46" rx="12" fill="#C6F432" stroke="#0F0F0F" stroke-width="5"/>
+  <rect x="88" y="162" width="144" height="11" rx="5.5" fill="#0F0F0F"/>
+  <!-- tangan kecil -->
+  <rect x="14" y="96" width="34" height="14" rx="7" fill="#FFD9E8" stroke="#0F0F0F" stroke-width="4"/>
+  <rect x="272" y="96" width="34" height="14" rx="7" fill="#FFD9E8" stroke="#0F0F0F" stroke-width="4"/>
+  <!-- bintang -->
+  <path d="M288 28 l5 14 14 5 -14 5 -5 14 -5 -14 -14 -5 14 -5 z" fill="#7DF0FF" stroke="#0F0F0F" stroke-width="3"/>
+  <path d="M36 100 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4 z" fill="#FFB3D1" stroke="#0F0F0F" stroke-width="3"/>
+</svg>

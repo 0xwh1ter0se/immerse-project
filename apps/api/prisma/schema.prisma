@@ -1,0 +1,101 @@
+generator client {
+  provider     = "prisma-client"
+  output       = "../src/generated/prisma"
+  moduleFormat = "esm"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id               String        @id @default(cuid())
+  email            String        @unique
+  name             String
+  passwordHash     String?
+  avatarUrl        String?
+  locale           String        @default("id")
+  phoneCountryCode String?
+  phoneNumber      String?
+  provider         AuthProvider  @default(EMAIL)
+  providerId       String?
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+  subscription     Subscription?
+  creditLedger     CreditLedger?
+  transactions     Transaction[]
+
+  @@unique([provider, providerId])
+  @@unique([phoneCountryCode, phoneNumber])
+}
+
+enum AuthProvider {
+  EMAIL
+  GOOGLE
+}
+
+model Plan {
+  id            String         @id @default(cuid())
+  slug          String         @unique
+  name          String
+  priceIdr      Int
+  dailyCredits  Int
+  features      Json
+  isActive      Boolean        @default(true)
+  createdAt     DateTime       @default(now())
+  subscriptions Subscription[]
+}
+
+model Subscription {
+  id                 String    @id @default(cuid())
+  userId             String    @unique
+  planId             String
+  status             SubStatus @default(ACTIVE)
+  currentPeriodStart DateTime  @default(now())
+  currentPeriodEnd   DateTime
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+  user               User      @relation(fields: [userId], references: [id])
+  plan               Plan      @relation(fields: [planId], references: [id])
+}
+
+enum SubStatus {
+  ACTIVE
+  EXPIRED
+  CANCELLED
+}
+
+model CreditLedger {
+  id          String   @id @default(cuid())
+  userId      String   @unique
+  balance     Int      @default(10)
+  dailyLimit  Int      @default(10)
+  lastResetAt DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  user        User     @relation(fields: [userId], references: [id])
+}
+
+model Transaction {
+  id             String    @id @default(cuid())
+  userId         String
+  planSlug       String
+  amountIdr      Int
+  taxIdr         Int
+  totalIdr       Int
+  paymentMethod  String?
+  gatewayOrderId String    @unique
+  gatewayTxId    String?
+  status         TxStatus  @default(PENDING)
+  paidAt         DateTime?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  user           User      @relation(fields: [userId], references: [id])
+}
+
+enum TxStatus {
+  PENDING
+  PAID
+  FAILED
+  EXPIRED
+  REFUNDED
+}

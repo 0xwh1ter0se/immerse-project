@@ -1,0 +1,14 @@
+# Kredensial lokal — jangan commit
+.env
+.env.*
+!.env.example
+*.exe
+bin/
+
+preview/
+node_modules/
+.next/
+.turbo/
+dist/
+apps/api/src/generated/prisma/
+pnpm-debug.log

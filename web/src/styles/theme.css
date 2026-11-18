@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Token desain Immerse — neo-brutalism.
+   Sumber: styles.css asli + docs/design-spec-auth.md §2.
+   Tidak ada hex/px lepas di komponen; semua lewat token di sini.
+   ============================================================ */
+
+@theme {
+  /* Warna */
+  --color-ink: #0f0f0f;
+  --color-paper: #f5f1e6;
+  --color-surface: #ffffff;
+  --color-yellow: #fff3d6;
+  --color-pink: #ffd9e8;
+  --color-cyan: #7df0ff;
+  --color-lime: #c6f432;
+
+  /* Bentuk */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-pill: 999px;
+
+  /* Shadow keras tanpa blur (elevasi lewat offset, bukan blur) */
+  --shadow-brutal-xs: 1px 1px 0 var(--color-ink);
+  --shadow-brutal-sm: 3px 3px 0 var(--color-ink);
+  --shadow-brutal-md: 4px 4px 0 var(--color-ink);
+  --shadow-brutal-lg: 6px 6px 0 var(--color-ink);
+  --shadow-brutal-hover: 9px 9px 0 var(--color-ink);
+  --shadow-brutal-xl: 10px 10px 0 var(--color-ink);
+
+  /* Gerak — kurva custom, bukan easing bawaan */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+
+  /* Font */
+  --font-sans: "Space Grotesk", system-ui, sans-serif;
+  --font-display: "Archivo Black", "Space Grotesk", sans-serif;
+
+  /* Breakpoint mengikuti CSS asli: 520 / 640 / 760 / 900 */
+  --breakpoint-xs: 520px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 760px;
+  --breakpoint-lg: 900px;
+}
+
+/* Hover hanya untuk perangkat ber-pointer presisi —
+   semua class hover: otomatis ter-gate, tidak ada hover palsu di HP */
+@custom-variant hover {
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      @slot;
+    }
+  }
+}
+
+/* Border tebal milik brand — Tailwind tidak punya 2.5/3/4px penuh */
+@utility border-ink-2 {
+  border: 2.5px solid var(--color-ink);
+}
+@utility border-ink-3 {
+  border: 3px solid var(--color-ink);
+}
+@utility border-ink-4 {
+  border: 4px solid var(--color-ink);
+}
+
+/* Latar polkadot: halaman (26px) dan layar pemutar (22px, lebih halus) */
+@utility bg-dots {
+  background-image: radial-gradient(rgba(15, 15, 15, 0.08) 1.4px, transparent 1.4px);
+  background-size: 26px 26px;
+}
+@utility bg-dots-sm {
+  background-image: radial-gradient(rgba(15, 15, 15, 0.07) 1.4px, transparent 1.4px);
+  background-size: 22px 22px;
+}
+
+/* Kontainer baca 1120px */
+@utility wrap {
+  max-width: 1120px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    background-color: var(--color-paper);
+    background-image: radial-gradient(rgba(15, 15, 15, 0.08) 1.4px, transparent 1.4px);
+    background-size: 26px 26px;
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    line-height: 1.55;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  button {
+    font-family: inherit;
+  }
+  /* Umpan balik sentuh: hilangkan flash tap, umpan balik nyata lewat active: */
+  a,
+  button {
+    touch-action: manipulation;
+  }
+  /* Fokus terlihat dan rapi: tombol/tautan dashed, input solid menyatu border */
+  a:focus-visible,
+  button:focus-visible {
+    outline: 3px dashed var(--color-ink);
+    outline-offset: 3px;
+  }
+  input:focus-visible {
+    outline: 3px solid var(--color-ink);
+    outline-offset: 0;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer components {
+  /* Skip link */
+  .skip {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 60;
+    background: var(--color-lime);
+    color: var(--color-ink);
+    padding: 8px 14px;
+    border: 2px solid var(--color-ink);
+    border-radius: 0 0 10px 0;
+    font-weight: 700;
+  }
+  .skip:focus {
+    left: 0;
+  }
+
+  /* Pola gerak bersama. .press = tombol (transform + shadow + warna),
+     .lift = kartu (transform + shadow). Reduced motion: transform dihapus,
+     shadow & warna tetap — perubahan state tetap terlihat tanpa gerak. */
+  .press {
+    transition:
+      transform 160ms var(--ease-out),
+      box-shadow 160ms var(--ease-out),
+      background-color 140ms ease;
+  }
+  .lift {
+    transition:
+      transform 160ms var(--ease-out),
+      box-shadow 160ms var(--ease-out);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .press,
+    .lift {
+      transition-property: box-shadow, background-color;
+    }
+    .press:active {
+      transform: none;
+    }
+  }
+}

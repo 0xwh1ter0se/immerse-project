@@ -1,0 +1,307 @@
+{
+  "Metadata": {
+    "title": "IMMERSE",
+    "description": "Learn a language through the videos you love."
+  },
+  "Header": {
+    "homeLabel": "Immerse, home",
+    "navigationLabel": "Main navigation",
+    "plans": "Plans",
+    "login": "Log in",
+    "register": "Sign up",
+    "languageLabel": "Language",
+    "indonesian": "Bahasa Indonesia",
+    "english": "English"
+  },
+  "Landing": {
+    "heroEyebrow": "Learn a language from videos you choose",
+    "heroTitle": "Turn your favorite videos into your language teacher.",
+    "heroDescription": "Learn from scenes you already love watching. Save words, understand sentences, and use them in real life.",
+    "startLearning": "Start learning",
+    "seeHow": "See how it works",
+    "watchingRoom": "WATCH ROOM",
+    "learningStatus": "LEARNING NOW",
+    "examplePhrase": "A little goes a long way.",
+    "sceneCaption": "One scene",
+    "dailyTab": "A new tab every day",
+    "featuresEyebrow": "More than memorization",
+    "featuresTitle": "Learn while enjoying the story.",
+    "featuresDescription": "Learn from videos you actually want to watch.",
+    "benefits": [
+      {
+        "index": "01 / LISTEN",
+        "title": "Language in context",
+        "text": "Hear words in the moments people actually say them."
+      },
+      {
+        "index": "02 / SAVE",
+        "title": "Words that stick",
+        "text": "Save new expressions and revisit them when you're ready to learn."
+      },
+      {
+        "index": "03 / PRACTICE",
+        "title": "Practice at your pace",
+        "text": "Use flashcards to remember without rushing."
+      },
+      {
+        "index": "04 / ENJOY",
+        "title": "The story is still yours",
+        "text": "You're learning, but the story stays part of your downtime."
+      }
+    ],
+    "stepsEyebrow": "Just three simple steps",
+    "stepsTitle": "Start with play.",
+    "stepsDescription": "Learning a language shouldn't feel like doing homework.",
+    "steps": [
+      {
+        "title": "Choose a video",
+        "text": "Start with a video that sparks your curiosity."
+      },
+      {
+        "title": "Follow the words",
+        "text": "Read the transcript and save new words."
+      },
+      {
+        "title": "Review for a moment",
+        "text": "Practice again with flashcards and your own progress."
+      }
+    ],
+    "mascotViews": [
+      {
+        "label": "FRONT",
+        "alt": "Front view of Mersi"
+      },
+      {
+        "label": "SIDE",
+        "alt": "Side view of Mersi"
+      },
+      {
+        "label": "BACK",
+        "alt": "Back view of Mersi"
+      }
+    ],
+    "mascotEyebrow": "A study buddy, not a robot",
+    "mascotTitle": "Meet Mersi.",
+    "mascotDescription": "A curious cat with a backwards blue cap, a favorite hoodie, and a yellow backpack. Mersi is with you from start to finish—and ready to help whenever you get stuck.",
+    "startWithMersi": "Start learning together",
+    "finalEyebrow": "FIRST STEP",
+    "finalTitle": "Ready to learn from stories you love?",
+    "tryImmerse": "Try IMMERSE",
+    "mascotAlt": "Mersi, an orange cat mascot wearing a backwards blue cap and blue hoodie",
+    "fishAlt": "Mersi holding a fish",
+    "runningAlt": "Mersi running along with your learning journey",
+    "jumpingAlt": "Mersi jumping with joy",
+    "footerTagline": "Stories you love make a language feel closer.",
+    "contact": "Have a question?",
+    "finalDescription": "Start with your favorite short video. Mersi is ready to guide you from your very first word.",
+    "finalCta": "Start learning for free"
+  },
+  "Auth": {
+    "oauth": {
+      "continueWithGoogle": "Continue with Google"
+    },
+    "login": {
+      "title": "Log in",
+      "description": "Use your registered Gmail account.",
+      "email": "Email",
+      "emailPlaceholder": "name@gmail.com",
+      "password": "Password",
+      "validationError": "Please check your login details.",
+      "invalidCredentials": "The email or password doesn't match.",
+      "serviceError": "The login service is currently unreachable.",
+      "submitting": "Processing...",
+      "or": "or",
+      "noAccount": "Don't have an account?",
+      "register": "Sign up"
+    },
+    "register": {
+      "title": "Sign up",
+      "description": "Use Gmail, an active phone number, and a strong password.",
+      "name": "Name",
+      "email": "Gmail address",
+      "emailPlaceholder": "name@gmail.com",
+      "country": "Country",
+      "phone": "Phone number",
+      "phonePlaceholder": "81234567890",
+      "password": "Password",
+      "passwordHint": "At least 8 characters, starting with an uppercase letter and including a lowercase letter, a number, and a symbol.",
+      "validationError": "Please check your sign-up details.",
+      "emailConflict": "This email address or phone number is already registered.",
+      "invalidData": "These details couldn't be used. Check your phone number and password.",
+      "serviceError": "The sign-up service is currently unreachable.",
+      "submitting": "Processing...",
+      "or": "or",
+      "haveAccount": "Already have an account?",
+      "login": "Log in"
+    }
+  },
+  "Payment": {
+    "plans": {
+      "eyebrow": "IMMERSE PLANS",
+      "title": "Choose your learning plan.",
+      "description": "Compare the available daily credits and prices. An 11% VAT is added to Pro and Max.",
+      "freePlan": "Free",
+      "paidPlan": "Paid plan",
+      "forever": "forever",
+      "perMonth": "month",
+      "dailyCredits": "AI credits per day",
+      "taxNotice": "Excludes {rate}% VAT.",
+      "basicUnavailable": "Basic activation is not available yet",
+      "selectPlan": "Choose plan"
+    },
+    "checkout": {
+      "eyebrow": "MIDTRANS CHECKOUT",
+      "title": "Account invoice details",
+      "statusPending": "Awaiting payment",
+      "planLabel": "Selected plan",
+      "oneMonth": "1 calendar month",
+      "amount": "Plan price",
+      "tax": "VAT ({rate}%)",
+      "total": "Total due",
+      "paymentMethod": "Choose a payment method",
+      "qris": "QRIS",
+      "qrisDescription": "Pay with a banking or wallet app that supports QRIS.",
+      "bankTransfer": "Bank transfer",
+      "bankTransferDescription": "Choose an available bank on the Midtrans payment page.",
+      "mersiTitle": "Mersi is here with you",
+      "mersiDescription": "Your plan period starts after the payment is verified.",
+      "mersiAlt": "Mersi, an orange cat with a blue backwards cap and blue hoodie",
+      "pay": "Continue to Midtrans",
+      "processing": "Opening payment…",
+      "backToPlans": "Back to plans",
+      "login": "Log in to your account",
+      "loginRequired": "Log in before continuing to checkout.",
+      "activeSubscriptionExists": "Your account already has an active plan. You can't buy another plan yet.",
+      "paymentUnavailable": "Payments are not configured yet.",
+      "checkoutError": "Checkout couldn't be started. Please try again shortly."
+    }
+  },
+  "Dashboard": {
+    "navigationLabel": "App navigation",
+    "navHome": "Home",
+    "navStudy": "Study room",
+    "navVocabulary": "Vocabulary",
+    "navProfile": "Profile",
+    "eyebrow": "Study room",
+    "title": "Welcome back.",
+    "description": "Start with one video. It doesn't have to be long.",
+    "cardTitle": "Start with your own video",
+    "cardDescription": "Paste a video link or upload a subtitle file once this feature is connected.",
+    "accountReady": "Make sure your account is ready",
+    "continueEyebrow": "Continue learning",
+    "continueTitle": "Your first video is waiting here.",
+    "continueBody": "Paste a link to your favorite video and let's learn from the scenes you enjoy.",
+    "continueCta": "Open study room",
+    "sampleTag": "Sample session",
+    "progressEyebrow": "Step by step",
+    "progressTitle": "Your learning progress",
+    "wordsSaved": "words saved",
+    "videosStudied": "videos studied",
+    "studyDays": "days learning",
+    "progressEmpty": "These numbers appear once you begin learning.",
+    "wordsEyebrow": "Your mini collection",
+    "wordsTitle": "Saved words",
+    "wordsEmpty": "Words you save will appear here.",
+    "wordsEmptyCta": "Open study room"
+  },
+  "Study": {
+    "eyebrow": "Watch room",
+    "title": "Learn through scenes.",
+    "videoEmptyTitle": "Video is not connected yet.",
+    "videoEmptyBody": "Paste a video link to begin learning.",
+    "play": "Play",
+    "pause": "Pause",
+    "seekLabel": "Video position",
+    "timeText": "{current} of {duration}",
+    "speedLabel": "Speed",
+    "speedNormal": "1×",
+    "speedFast": "1.5×",
+    "transcriptEyebrow": "Words on screen",
+    "transcriptTitle": "Transcript",
+    "transcriptEmpty": "Transcript is not yet available for this video.",
+    "transcriptEmptyCta": "Try another video",
+    "transcriptError": "Failed to load transcript.",
+    "retry": "Try again",
+    "saveWord": "Save {word}",
+    "removeWord": "Remove {word} from vocabulary",
+    "savedTag": "Saved",
+    "seekTo": "Jump to {time}",
+    "practiceEyebrow": "After watching",
+    "practiceTitle": "Quick practice",
+    "practiceVocabulary": "Vocabulary",
+    "practiceFlashcards": "Flashcards",
+    "mersiName": "Mersi",
+    "mersiRole": "Your study buddy",
+    "mersiQuote": "If a word catches your eye, save it. We will revisit it together.",
+    "noteEyebrow": "Study note",
+    "noteTitle": "One small step.",
+    "noteBody": "Rewatching the same scene is an essential part of learning."
+  },
+  "Vocabulary": {
+    "eyebrow": "Word collection from your stories",
+    "title": "My vocabulary",
+    "description": "New words, remembered your own way.",
+    "practice": "Practice words",
+    "searchLabel": "Search words",
+    "searchPlaceholder": "Search words or meanings…",
+    "sortLabel": "Sort list",
+    "sortNewest": "Newest",
+    "sortAz": "A–Z",
+    "count": "{count, plural, one {# word} other {# words}}",
+    "practiceOne": "Practice {word}",
+    "review": "Practice",
+    "delete": "Delete {word}",
+    "deleteConfirm": "Delete?",
+    "cancel": "Cancel",
+    "emptyTitle": "No saved words yet.",
+    "emptyBody": "Save a word while watching, and it will appear here.",
+    "emptyCta": "Open study room",
+    "noResultsTitle": "No matching words.",
+    "noResultsBody": "Try another word or adjust sorting.",
+    "errorTitle": "Unable to load word list."
+  },
+  "Flashcards": {
+    "eyebrow": "Review without rushing",
+    "title": "Flashcards",
+    "description": "Flip card to see its meaning.",
+    "sessionLabel": "Practice session",
+    "counter": "{current} / {total}",
+    "progressLabel": "Session progress",
+    "reveal": "Flip card to view meaning",
+    "revealBack": "Flip back to word",
+    "again": "Needs practice",
+    "known": "Remembered",
+    "revealFirst": "Flip first",
+    "hint": "Space to flip, arrows to navigate.",
+    "manage": "Manage saved words",
+    "doneTitle": "Session completed.",
+    "doneBody": "{known} of {total} words remembered.",
+    "doneRepeat": "Review unfamiliar words",
+    "doneBack": "Back to vocabulary",
+    "emptyTitle": "No flashcards yet.",
+    "emptyBody": "Save words first, then return here.",
+    "emptyCta": "Open study room",
+    "errorTitle": "Unable to load practice session."
+  },
+  "Profile": {
+    "eyebrow": "User profile",
+    "title": "Account & preferences",
+    "description": "Your study session info and language settings.",
+    "nameLabel": "User name",
+    "emailLabel": "Registered email",
+    "targetLangLabel": "Target language",
+    "sourceLangLabel": "Primary language",
+    "storageNotice": "Your study session data is currently stored locally in this browser.",
+    "backToDashboard": "Back to Home"
+  },
+  "Common": {
+    "savedToast": "Word saved.",
+    "removedToast": "Word removed.",
+    "undo": "Undo",
+    "dismiss": "Dismiss",
+    "retry": "Try again",
+    "cancel": "Cancel",
+    "loading": "Loading…",
+    "errorGeneric": "Something could not be loaded."
+  }
+}

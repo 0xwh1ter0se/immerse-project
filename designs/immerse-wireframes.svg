@@ -1,0 +1,739 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1860" height="11200" viewBox="0 0 1860 11200">
+  <style>
+    text { font-family: "Space Grotesk", Arial, sans-serif; fill: #0F0F0F; }
+    .title, .h1, .h2 { font-family: "Archivo Black", "Space Grotesk", Arial, sans-serif; }
+    .title { font-size: 32px; font-weight: 700; letter-spacing: 1px; }
+    .label { font-size: 18px; font-weight: 700; }
+    .small { font-size: 14px; }
+    .tiny { font-size: 12px; }
+    .body { font-size: 16px; }
+    .h1 { font-size: 38px; font-weight: 700; }
+    .h2 { font-size: 26px; font-weight: 700; }
+    .card { fill: #FFFFFF; stroke: #0F0F0F; stroke-width: 3; }
+    .ink { fill: #0F0F0F; }
+    .paper { fill: #FFFFFF; }
+    .cyan { fill: #E4E4E4; }
+    .pink { fill: #D0D0D0; }
+    .lime { fill: #B8B8B8; }
+    .yellow { fill: #F0F0F0; }
+    .stroke { stroke: #0F0F0F; stroke-width: 3; }
+    .muted { fill: #666666; }
+  </style>
+
+  <rect width="1860" height="11200" fill="#FFFFFF"/>
+  <text x="60" y="52" class="title">IMMERSE — MVP WIREFRAMES · MONOCHROME</text>
+  <text x="60" y="82" class="body">Responsive low-fidelity flows · desktop + mobile · grayscale only</text>
+  <rect x="60" y="104" width="1740" height="58" rx="8" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+  <text x="82" y="139" class="label">FLOW</text>
+  <text x="166" y="139" class="body">Landing → Auth → Dashboard → Video + language pair → Player (subtitles, grammar, flashcards) → Post-video quiz + XP → Vocabulary / Plans / Settings</text>
+  <rect x="1155" y="120" width="18" height="18" class="lime" stroke="#0F0F0F" stroke-width="2"/>
+  <text x="1183" y="135" class="small">Action</text>
+  <rect x="1305" y="120" width="18" height="18" class="cyan" stroke="#0F0F0F" stroke-width="2"/>
+  <text x="1333" y="135" class="small">Info</text>
+  <rect x="1455" y="120" width="18" height="18" class="pink" stroke="#0F0F0F" stroke-width="2"/>
+  <text x="1483" y="135" class="small">Secondary</text>
+
+  <!-- 01 Landing -->
+  <g id="01-landing-desktop" transform="translate(60 190)">
+    <text x="0" y="0" class="label">01 · LANDING — DESKTOP · 1440</text>
+    <rect x="0" y="18" width="1280" height="1500" rx="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <rect x="0" y="18" width="1280" height="72" fill="#FFFFFF"/>
+    <line x1="0" y1="90" x2="1280" y2="90" class="stroke"/>
+    <text x="44" y="62" class="h2">IMMERSE</text>
+    <text x="635" y="58" class="body">Fitur</text><text x="730" y="58" class="body">Cara kerja</text>
+    <text x="865" y="58" class="body">Mersi</text>
+    <text x="977" y="58" class="tiny" font-weight="700">ID | EN</text>
+    <rect x="1067" y="34" width="88" height="40" rx="8" class="card"/>
+    <text x="1088" y="60" class="small">Masuk</text>
+    <rect x="1168" y="34" width="82" height="40" rx="8" class="lime stroke"/>
+    <text x="1186" y="60" class="small">Daftar</text>
+    <text x="54" y="176" class="tiny muted">BELAJAR BAHASA DARI VIDEO PILIHANMU</text>
+    <text x="54" y="230" class="h1">VIDEO FAVORITMU,</text>
+    <text x="54" y="276" class="h1">JADI GURU BAHASAMU.</text>
+    <text x="54" y="322" class="body">Tonton. Pahami. Simpan kata baru.</text>
+    <text x="54" y="350" class="body">Belajar dari film, podcast, kuliah, atau vlog.</text>
+    <rect x="54" y="384" width="490" height="58" rx="10" class="card"/>
+    <text x="76" y="419" class="small muted">Tempel tautan video atau unggah subtitle</text>
+    <rect x="554" y="384" width="148" height="58" rx="10" class="lime stroke"/>
+    <text x="576" y="419" class="small">Mulai belajar →</text>
+    <text x="54" y="468" class="tiny muted">Video pertama gratis · File subtitle .srt / .vtt</text>
+    <rect x="748" y="128" width="470" height="338" rx="18" class="card"/>
+    <rect x="768" y="148" width="430" height="214" rx="10" class="yellow stroke"/>
+    <circle cx="983" cy="252" r="37" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <path d="M974 232 L1002 252 L974 272 Z" class="ink"/>
+    <text x="794" y="335" class="small">PLAYER DEMO · 00:42 / 08:15</text>
+    <rect x="787" y="376" width="392" height="30" rx="4" fill="#FFFFFF"/>
+    <text x="807" y="397" class="small">I never thought I'd make it this far.</text>
+    <rect x="787" y="408" width="392" height="30" rx="4" class="lime"/>
+    <text x="807" y="429" class="small">Aku tak menyangka bisa sejauh ini.</text>
+    <text x="52" y="544" class="h2">BELAJAR SAMBIL MENIKMATI CERITA</text>
+    <g>
+      <rect x="52" y="566" width="282" height="148" rx="12" fill="#F0F0F0" class="stroke"/>
+      <text x="74" y="604" class="label">01 · Subtitle ganda</text><text x="74" y="637" class="small">Bahasa target + terjemahan</text><text x="74" y="659" class="small">selalu berdampingan.</text>
+      <rect x="352" y="566" width="282" height="148" rx="12" class="pink stroke"/>
+      <text x="374" y="604" class="label">02 · Simpan kosakata</text><text x="374" y="637" class="small">Satu klik untuk menyimpan</text><text x="374" y="659" class="small">kata ke daftar belajarmu.</text>
+      <rect x="652" y="566" width="282" height="148" rx="12" class="cyan stroke"/>
+      <text x="674" y="604" class="label">03 · Pahami konteks</text><text x="674" y="637" class="small">Penjelasan grammar</text><text x="674" y="659" class="small">mengikuti percakapan.</text>
+      <rect x="952" y="566" width="282" height="148" rx="12" class="lime stroke"/>
+      <text x="974" y="604" class="label">04 · Tanya Mersi</text><text x="974" y="637" class="small">Asisten AI menjelaskan</text><text x="974" y="659" class="small">ungkapan dengan santai.</text>
+    </g>
+    <rect x="0" y="748" width="1280" height="204" class="pink"/>
+    <line x1="0" y1="748" x2="1280" y2="748" class="stroke"/><line x1="0" y1="952" x2="1280" y2="952" class="stroke"/>
+    <text x="52" y="795" class="h2">TIGA LANGKAH, LANGSUNG PAHAM</text>
+    <rect x="52" y="815" width="360" height="105" rx="10" class="card"/>
+    <text x="74" y="850" class="label">1 · Pilih video</text><text x="74" y="881" class="small">Tempel link atau unggah subtitle.</text>
+    <rect x="460" y="815" width="360" height="105" rx="10" class="card"/>
+    <text x="482" y="850" class="label">2 · Tonton &amp; pahami</text><text x="482" y="881" class="small">Ikuti subtitle dua bahasa dan transkrip.</text>
+    <rect x="868" y="815" width="360" height="105" rx="10" class="card"/>
+    <text x="890" y="850" class="label">3 · Simpan yang baru</text><text x="890" y="881" class="small">Bangun daftar kata sesuai minatmu.</text>
+    <text x="52" y="1024" class="h2">KENALAN DENGAN MERSI</text>
+    <rect x="52" y="1048" width="278" height="226" rx="14" class="cyan stroke"/>
+    <circle cx="190" cy="1122" r="54" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="168" y="1132" class="h2">M</text><text x="86" y="1205" class="small">Partner belajar, bukan guru.</text>
+    <rect x="356" y="1048" width="872" height="226" rx="14" class="card"/>
+    <text x="386" y="1090" class="label">Kamu · Kenapa “make it” artinya berhasil?</text>
+    <rect x="386" y="1110" width="790" height="66" rx="8" class="lime"/>
+    <text x="406" y="1140" class="small">Mersi · Di sini “make it” berarti berhasil melewati sesuatu.</text>
+    <text x="406" y="1162" class="small">Konteksnya perjalanan, bukan membuat benda.</text>
+    <rect x="386" y="1190" width="790" height="52" rx="8" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="406" y="1222" class="small muted">Tanya Mersi tentang ungkapan ini…</text>
+    <rect x="0" y="1304" width="1280" height="134" class="lime"/>
+    <line x1="0" y1="1304" x2="1280" y2="1304" class="stroke"/>
+    <text x="52" y="1355" class="h2">SIAP BELAJAR DARI YANG KAMU SUKA?</text>
+    <rect x="932" y="1324" width="282" height="62" rx="10" class="pink stroke"/>
+    <text x="978" y="1362" class="label">Coba gratis →</text>
+    <line x1="0" y1="1438" x2="1280" y2="1438" class="stroke"/>
+    <text x="52" y="1480" class="small">IMMERSE</text><text x="1020" y="1480" class="small muted">Belajar bahasa, satu cerita pada satu waktu.</text>
+  </g>
+
+  <g id="01-landing-mobile" transform="translate(1400 190)">
+    <text x="0" y="0" class="label">01 · LANDING — MOBILE · 390</text>
+    <rect x="0" y="18" width="390" height="1500" rx="20" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <line x1="0" y1="78" x2="390" y2="78" class="stroke"/>
+    <text x="20" y="54" class="label">IMMERSE</text><text x="232" y="54" class="small">Masuk</text><text x="318" y="54" class="tiny" font-weight="700">ID | EN</text>
+    <text x="22" y="130" class="tiny muted">BELAJAR DARI VIDEO PILIHANMU</text>
+    <text x="22" y="184" class="h2">VIDEO FAVORITMU,</text><text x="22" y="220" class="h2">JADI GURU BAHASAMU.</text>
+    <text x="22" y="260" class="small">Tonton. Pahami. Simpan kata baru.</text>
+    <rect x="22" y="282" width="346" height="48" rx="8" class="card"/>
+    <text x="38" y="311" class="tiny muted">Tempel tautan atau unggah subtitle</text>
+    <rect x="22" y="342" width="346" height="48" rx="8" class="lime stroke"/>
+    <text x="128" y="372" class="small">Mulai belajar →</text>
+    <rect x="22" y="414" width="346" height="238" rx="12" class="card"/>
+    <rect x="36" y="428" width="318" height="148" rx="8" class="yellow stroke"/>
+    <circle cx="195" cy="502" r="26" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <path d="M190 489 L208 502 L190 515 Z" class="ink"/>
+    <rect x="36" y="584" width="318" height="25" rx="4" fill="#FFFFFF"/>
+    <text x="46" y="601" class="tiny">I never thought I'd make it this far.</text>
+    <rect x="36" y="612" width="318" height="25" rx="4" class="lime"/>
+    <text x="46" y="629" class="tiny">Aku tak menyangka bisa sejauh ini.</text>
+    <text x="22" y="706" class="label">BELAJAR LEWAT CERITA</text>
+    <rect x="22" y="726" width="346" height="90" rx="10" fill="#F0F0F0" class="stroke"/>
+    <text x="42" y="758" class="label">Subtitle ganda</text><text x="42" y="787" class="small">Target dan terjemahan berdampingan.</text>
+    <rect x="22" y="836" width="346" height="90" rx="10" class="pink stroke"/>
+    <text x="42" y="868" class="label">Kosakata pribadi</text><text x="42" y="897" class="small">Simpan kata untuk dipelajari lagi.</text>
+    <rect x="22" y="946" width="346" height="90" rx="10" class="cyan stroke"/>
+    <text x="42" y="978" class="label">Penjelasan Mersi</text><text x="42" y="1007" class="small">Pahami konteks dan grammar.</text>
+    <text x="22" y="1088" class="label">MULAI DALAM 3 LANGKAH</text>
+    <text x="34" y="1134" class="small">1. Pilih video atau subtitle</text>
+    <text x="34" y="1172" class="small">2. Tonton sambil pahami konteks</text>
+    <text x="34" y="1210" class="small">3. Simpan kata baru</text>
+    <rect x="22" y="1242" width="346" height="136" rx="12" class="cyan stroke"/>
+    <text x="42" y="1278" class="label">MERSI · PARTNER BELAJARMU</text>
+    <text x="42" y="1310" class="small">“Make it” di sini berarti</text><text x="42" y="1332" class="small">berhasil melewati sesuatu.</text>
+    <rect x="22" y="1400" width="346" height="60" rx="10" class="lime stroke"/>
+    <text x="115" y="1438" class="label">Coba gratis →</text>
+    <text x="22" y="1490" class="tiny muted">IMMERSE · Belajar dari cerita yang kamu suka.</text>
+  </g>
+
+  <!-- 02 Login -->
+  <g id="02-login-desktop" transform="translate(60 1750)">
+    <text x="0" y="0" class="label">02 · MASUK — DESKTOP · 1440</text>
+    <rect x="0" y="18" width="1280" height="840" rx="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <line x1="0" y1="84" x2="1280" y2="84" class="stroke"/>
+    <text x="42" y="58" class="h2">IMMERSE</text><text x="1040" y="56" class="tiny" font-weight="700">ID | EN</text><text x="1120" y="56" class="small">← Beranda</text>
+    <rect x="80" y="164" width="450" height="510" rx="16" class="cyan stroke"/>
+    <circle cx="305" cy="298" r="92" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="4"/>
+    <text x="277" y="319" class="h1">M</text>
+    <text x="120" y="440" class="h2">Belajar bareng</text><text x="120" y="476" class="h2">Mersi, yuk!</text>
+    <text x="120" y="520" class="body">Lanjutkan cerita dan kosakata</text><text x="120" y="546" class="body">yang sudah kamu mulai.</text>
+    <rect x="120" y="582" width="112" height="38" rx="18" class="card"/>
+    <text x="140" y="606" class="tiny">Subtitle ganda</text>
+    <rect x="246" y="582" width="106" height="38" rx="18" class="card"/>
+    <text x="266" y="606" class="tiny">Kosakata</text>
+    <rect x="566" y="132" width="634" height="586" rx="16" class="card"/>
+    <text x="620" y="198" class="h1">MASUK</text>
+    <text x="620" y="234" class="small">Senang bertemu lagi. Lanjutkan belajarmu.</text>
+    <text x="620" y="290" class="small">Email, no HP, atau username</text>
+    <rect x="620" y="306" width="520" height="54" rx="8" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="642" y="339" class="small muted">contoh@email.com</text>
+    <text x="620" y="400" class="small">Password</text>
+    <rect x="620" y="416" width="520" height="54" rx="8" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="642" y="449" class="small muted">••••••••••</text>
+    <rect x="620" y="498" width="520" height="58" rx="10" class="lime stroke"/>
+    <text x="846" y="534" class="label">Masuk</text>
+    <text x="735" y="606" class="small">Belum punya akun?</text><text x="898" y="606" class="small" font-weight="700">Daftar</text>
+    <rect x="620" y="642" width="520" height="52" rx="8" class="pink stroke"/>
+    <text x="640" y="674" class="tiny">ALT ERROR · Email, no HP, atau username salah.</text>
+    <text x="80" y="770" class="small muted">Tidak ada OAuth · Satu identifier · Session aman</text>
+  </g>
+  <g id="02-login-mobile" transform="translate(1400 1750)">
+    <text x="0" y="0" class="label">02 · MASUK — MOBILE · 390</text>
+    <rect x="0" y="18" width="390" height="840" rx="20" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <line x1="0" y1="70" x2="390" y2="70" class="stroke"/>
+    <text x="18" y="48" class="label">IMMERSE</text><text x="247" y="48" class="tiny" font-weight="700">ID | EN</text><text x="330" y="48" class="tiny">⌂</text>
+    <rect x="18" y="94" width="354" height="124" rx="12" class="cyan stroke"/>
+    <circle cx="74" cy="156" r="36" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="64" y="165" class="label">M</text>
+    <text x="126" y="145" class="label">Hai lagi!</text><text x="126" y="171" class="small">Belajar bareng Mersi.</text>
+    <rect x="18" y="242" width="354" height="470" rx="12" class="card"/>
+    <text x="42" y="292" class="h1">MASUK</text><text x="42" y="321" class="tiny">Lanjutkan belajarmu.</text>
+    <text x="42" y="370" class="small">Email, no HP, atau username</text>
+    <rect x="42" y="384" width="306" height="50" rx="8" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="58" y="415" class="tiny muted">Masukkan identifier</text>
+    <text x="42" y="476" class="small">Password</text>
+    <rect x="42" y="490" width="306" height="50" rx="8" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="58" y="521" class="tiny muted">••••••••••</text>
+    <rect x="42" y="564" width="306" height="54" rx="8" class="lime stroke"/>
+    <text x="160" y="598" class="label">Masuk</text>
+    <text x="76" y="656" class="small">Belum punya akun?</text><text x="245" y="656" class="small" font-weight="700">Daftar</text>
+    <rect x="42" y="674" width="306" height="28" rx="5" class="pink stroke"/>
+    <text x="52" y="693" class="tiny">ALT ERROR · Identifier atau password salah.</text>
+    <text x="18" y="770" class="tiny muted">Input 16px · target sentuh ≥44px · fokus terlihat</text>
+  </g>
+
+  <!-- 03 Register -->
+  <g id="03-register-desktop" transform="translate(60 2690)">
+    <text x="0" y="0" class="label">03 · DAFTAR — DESKTOP · 1440</text>
+    <rect x="0" y="18" width="1280" height="840" rx="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <line x1="0" y1="84" x2="1280" y2="84" class="stroke"/>
+    <text x="42" y="58" class="h2">IMMERSE</text><text x="1040" y="56" class="tiny" font-weight="700">ID | EN</text><text x="1120" y="56" class="small">← Beranda</text>
+    <rect x="74" y="164" width="434" height="510" rx="16" class="cyan stroke"/>
+    <circle cx="291" cy="296" r="90" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="4"/>
+    <text x="263" y="317" class="h1">M</text>
+    <text x="112" y="436" class="h2">Mulai dari cerita</text><text x="112" y="472" class="h2">yang kamu suka.</text>
+    <text x="112" y="520" class="body">Buat akun untuk menyimpan</text><text x="112" y="546" class="body">progress dan kata barumu.</text>
+    <rect x="112" y="582" width="114" height="38" rx="18" class="card"/>
+    <text x="132" y="606" class="tiny">Gratis mulai</text>
+    <rect x="540" y="112" width="660" height="690" rx="16" class="card"/>
+    <text x="594" y="170" class="h1">DAFTAR</text><text x="594" y="202" class="small">Buat akun Immerse kamu.</text>
+    <text x="594" y="248" class="small">Email</text><rect x="594" y="260" width="552" height="46" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="612" y="289" class="tiny muted">nama@email.com</text>
+    <text x="594" y="340" class="small">No. HP</text><rect x="594" y="352" width="552" height="46" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="612" y="381" class="tiny muted">08xx xxxx xxxx</text>
+    <text x="594" y="432" class="small">Username</text><rect x="594" y="444" width="552" height="46" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="612" y="473" class="tiny muted">3–20 karakter · huruf, angka, underscore</text>
+    <text x="594" y="524" class="small">Password</text><rect x="594" y="536" width="265" height="46" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="612" y="565" class="tiny muted">Min. 8 karakter</text>
+    <text x="880" y="524" class="small">Konfirmasi password</text><rect x="880" y="536" width="266" height="46" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="898" y="565" class="tiny muted">Ulangi password</text>
+    <rect x="594" y="606" width="552" height="54" rx="8" class="lime stroke"/>
+    <text x="820" y="640" class="label">Daftar</text>
+    <text x="736" y="700" class="small">Sudah punya akun?</text><text x="892" y="700" class="small" font-weight="700">Masuk</text>
+    <text x="74" y="770" class="small muted">Registrasi sukses → buat session → dashboard</text>
+  </g>
+  <g id="03-register-mobile" transform="translate(1400 2690)">
+    <text x="0" y="0" class="label">03 · DAFTAR — MOBILE · 390</text>
+    <rect x="0" y="18" width="390" height="840" rx="20" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <line x1="0" y1="70" x2="390" y2="70" class="stroke"/>
+    <text x="18" y="48" class="label">IMMERSE</text><text x="247" y="48" class="tiny" font-weight="700">ID | EN</text><text x="330" y="48" class="tiny">⌂</text>
+    <rect x="18" y="88" width="354" height="94" rx="12" class="cyan stroke"/>
+    <circle cx="65" cy="135" r="30" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="56" y="143" class="small" font-weight="700">M</text>
+    <text x="108" y="126" class="label">Mulai belajar</text><text x="108" y="150" class="tiny">Buat akun gratis.</text>
+    <rect x="18" y="202" width="354" height="608" rx="12" class="card"/>
+    <text x="42" y="248" class="h1">DAFTAR</text>
+    <text x="42" y="288" class="small">Email</text><rect x="42" y="298" width="306" height="42" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/><text x="56" y="324" class="tiny muted">nama@email.com</text>
+    <text x="42" y="372" class="small">No. HP</text><rect x="42" y="382" width="306" height="42" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/><text x="56" y="408" class="tiny muted">08xx xxxx xxxx</text>
+    <text x="42" y="456" class="small">Username</text><rect x="42" y="466" width="306" height="42" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/><text x="56" y="492" class="tiny muted">3–20 karakter</text>
+    <text x="42" y="540" class="small">Password</text><rect x="42" y="550" width="306" height="42" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/><text x="56" y="576" class="tiny muted">Min. 8 karakter</text>
+    <text x="42" y="624" class="small">Konfirmasi password</text><rect x="42" y="634" width="306" height="42" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/><text x="56" y="660" class="tiny muted">Ulangi password</text>
+    <rect x="42" y="696" width="306" height="48" rx="8" class="lime stroke"/><text x="158" y="727" class="label">Daftar</text>
+    <text x="78" y="778" class="tiny">Sudah punya akun? <tspan font-weight="700">Masuk</tspan></text>
+  </g>
+
+  <!-- 04 Dashboard -->
+  <g id="04-dashboard-desktop" transform="translate(60 3630)">
+    <text x="0" y="0" class="label">04 · DASHBOARD — DESKTOP · 1440</text>
+    <rect x="0" y="18" width="1280" height="840" rx="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <rect x="0" y="18" width="236" height="840" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="28" y="68" class="h2">IMMERSE</text><line x1="0" y1="92" x2="236" y2="92" class="stroke"/>
+    <rect x="16" y="118" width="204" height="46" rx="8" class="lime stroke"/><text x="44" y="148" class="small" font-weight="700">⌂  Dashboard</text>
+    <text x="44" y="205" class="small">▶  Video saya</text><text x="44" y="254" class="small">▤  Kosakata</text>
+    <line x1="18" y1="328" x2="218" y2="328" stroke="#0F0F0F" stroke-width="1"/>
+    <text x="28" y="366" class="tiny muted">RUANG BELAJAR</text><text x="44" y="404" class="small">Pengaturan</text>
+    <circle cx="42" cy="808" r="22" class="cyan stroke"/><text x="35" y="814" class="tiny" font-weight="700">D</text>
+    <text x="76" y="805" class="small">Deza</text><text x="76" y="824" class="tiny muted">Akun belajar</text>
+    <text x="278" y="70" class="small muted">Rabu, 15 November 2026</text><text x="1150" y="70" class="tiny" font-weight="700">ID | EN</text>
+    <text x="278" y="122" class="h1">Hai, Deza! 👋</text><text x="278" y="154" class="body">Siap lanjut belajar dari ceritamu?</text>
+    <rect x="278" y="184" width="940" height="152" rx="14" class="cyan stroke"/>
+    <text x="310" y="228" class="h2">Mulai dari video pilihanmu</text><text x="310" y="260" class="small">Tempel tautan video atau unggah subtitle .srt / .vtt.</text>
+    <rect x="310" y="280" width="610" height="40" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="326" y="305" class="tiny muted">https://…</text>
+    <rect x="932" y="280" width="130" height="40" rx="7" class="lime stroke"/><text x="958" y="305" class="tiny">Buka video</text>
+    <rect x="1074" y="280" width="112" height="40" rx="7" class="card"/><text x="1092" y="305" class="tiny">Unggah .srt</text>
+    <text x="278" y="394" class="h2">Lanjutkan belajar</text>
+    <rect x="278" y="416" width="578" height="210" rx="12" class="card"/>
+    <rect x="298" y="436" width="188" height="134" rx="8" class="yellow stroke"/>
+    <circle cx="392" cy="502" r="22" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/><path d="M386 492 L402 502 L386 512 Z" class="ink"/>
+    <text x="510" y="462" class="label">The Great Journey · E03</text><text x="510" y="490" class="tiny muted">English · 12 menit</text>
+    <rect x="510" y="520" width="304" height="12" rx="6" fill="#E5E5E5"/><rect x="510" y="520" width="190" height="12" rx="6" class="lime"/>
+    <text x="510" y="557" class="tiny">62% selesai · Lanjutkan →</text><text x="510" y="592" class="tiny muted">Terakhir dibuka hari ini</text>
+    <rect x="878" y="416" width="340" height="210" rx="12" class="card"/>
+    <text x="904" y="456" class="label">Progress belajarmu</text>
+    <text x="904" y="502" class="h2">18</text><text x="954" y="502" class="tiny">kata disimpan</text>
+    <text x="904" y="543" class="h2">3</text><text x="954" y="543" class="tiny">sesi minggu ini</text>
+    <rect x="904" y="570" width="274" height="34" rx="7" class="pink stroke"/><text x="936" y="593" class="tiny">Ulangi kosakata →</text>
+    <text x="278" y="682" class="h2">Kata terbaru</text>
+    <rect x="278" y="704" width="940" height="116" rx="10" class="card"/>
+    <text x="302" y="740" class="small" font-weight="700">make it</text><text x="480" y="740" class="small">berhasil</text><text x="700" y="740" class="tiny muted">“I knew you could make it.”</text>
+    <line x1="298" y1="758" x2="1198" y2="758" stroke="#D0D0D0" stroke-width="1"/>
+    <text x="302" y="794" class="small" font-weight="700">figure out</text><text x="480" y="794" class="small">memahami</text><text x="700" y="794" class="tiny muted">Disimpan dari video terakhir</text>
+  </g>
+  <g id="04-dashboard-mobile" transform="translate(1400 3630)">
+    <text x="0" y="0" class="label">04 · DASHBOARD — MOBILE · 390</text>
+    <rect x="0" y="18" width="390" height="840" rx="20" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="18" y="58" class="label">IMMERSE</text><text x="270" y="58" class="tiny" font-weight="700">ID | EN</text><circle cx="350" cy="47" r="17" class="cyan stroke"/><text x="344" y="52" class="tiny">D</text>
+    <text x="18" y="112" class="h2">Hai, Deza! 👋</text><text x="18" y="138" class="tiny">Siap lanjut belajar?</text>
+    <rect x="18" y="164" width="354" height="148" rx="12" class="cyan stroke"/>
+    <text x="38" y="202" class="label">Mulai belajar</text><text x="38" y="226" class="tiny">Tautan video atau subtitle</text>
+    <rect x="38" y="244" width="314" height="40" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="50" y="269" class="tiny muted">https://…</text>
+    <text x="18" y="356" class="label">LANJUTKAN</text>
+    <rect x="18" y="374" width="354" height="206" rx="12" class="card"/>
+    <rect x="32" y="388" width="120" height="118" rx="7" class="yellow stroke"/>
+    <circle cx="92" cy="447" r="18" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="168" y="416" class="small" font-weight="700">The Great Journey</text><text x="168" y="441" class="tiny">E03 · English</text>
+    <rect x="168" y="462" width="182" height="10" rx="5" fill="#E5E5E5"/><rect x="168" y="462" width="112" height="10" rx="5" class="lime"/>
+    <text x="168" y="492" class="tiny">62% selesai</text>
+    <rect x="32" y="522" width="322" height="42" rx="7" class="lime stroke"/><text x="138" y="549" class="small">Lanjutkan →</text>
+    <text x="18" y="626" class="label">PROGRESS MINGGU INI</text>
+    <rect x="18" y="644" width="168" height="92" rx="10" class="card"/><text x="38" y="682" class="h2">18</text><text x="38" y="712" class="tiny">kata disimpan</text>
+    <rect x="204" y="644" width="168" height="92" rx="10" class="card"/><text x="224" y="682" class="h2">3</text><text x="224" y="712" class="tiny">sesi belajar</text>
+    <rect x="18" y="758" width="354" height="52" rx="8" class="pink stroke"/><text x="102" y="790" class="small">Ulangi kosakata →</text>
+    <rect x="0" y="812" width="390" height="46" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="18" y="840" class="tiny" font-weight="700">Dashboard</text><text x="112" y="840" class="tiny">Video</text><text x="206" y="840" class="tiny">Kosakata</text><text x="316" y="840" class="tiny">Lainnya</text>
+  </g>
+
+  <!-- 05 Player -->
+  <g id="05-player-desktop" transform="translate(60 4570)">
+    <text x="0" y="0" class="label">05 · PLAYER — DESKTOP · 1440</text>
+    <rect x="0" y="18" width="1280" height="840" rx="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <line x1="0" y1="78" x2="1280" y2="78" class="stroke"/>
+    <text x="28" y="54" class="label">← IMMERSE</text><text x="230" y="54" class="small">The Great Journey · E03</text>
+    <text x="1022" y="53" class="tiny" font-weight="700">ID | EN</text>
+    <rect x="1086" y="28" width="164" height="38" rx="7" class="card"/><text x="1112" y="53" class="tiny">‹ Kosakata saya</text>
+    <rect x="28" y="102" width="790" height="310" rx="14" class="card"/>
+    <rect x="48" y="122" width="750" height="232" rx="8" class="yellow stroke"/>
+    <circle cx="423" cy="238" r="42" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/><path d="M411 216 L443 238 L411 260 Z" class="ink"/>
+    <text x="72" y="386" class="tiny">VIDEO · 00:42 / 08:15</text>
+    <text x="30" y="444" class="small" font-weight="700">SUBTITLE</text><text x="672" y="444" class="tiny muted">Bahasa bertumpuk · atas / bawah</text>
+    <rect x="28" y="458" width="790" height="68" rx="10" class="card"/>
+    <rect x="44" y="468" width="758" height="24" rx="4" class="yellow"/>
+    <text x="58" y="485" class="tiny" font-weight="700">EN · BAHASA YANG DIPELAJARI — I never thought I'd make it this far.</text>
+    <rect x="44" y="496" width="758" height="24" rx="4" class="lime"/>
+    <text x="58" y="513" class="tiny" font-weight="700">ID · BAHASA IBU — Aku tak menyangka bisa sejauh ini.</text>
+    <text x="30" y="558" class="h2">PENJELASAN GRAMMAR</text>
+    <rect x="28" y="574" width="790" height="126" rx="12" class="card"/>
+    <rect x="48" y="592" width="174" height="88" rx="8" class="yellow"/>
+    <text x="64" y="622" class="small" font-weight="700">Past simple</text><text x="64" y="650" class="tiny">thought = think</text><text x="64" y="669" class="tiny">bentuk lampau</text>
+    <text x="246" y="615" class="small">Dipakai untuk pikiran atau kejadian yang selesai di masa lalu.</text>
+    <text x="246" y="644" class="tiny muted">Contoh: “I thought it was impossible.” · Tekan kata untuk menyimpan.</text>
+    <text x="30" y="730" class="h2">FLASHCARDS</text>
+    <rect x="28" y="744" width="790" height="74" rx="10" class="card"/>
+    <text x="50" y="775" class="label">make it</text><text x="176" y="775" class="small">18 kata tersimpan dari video</text>
+    <rect x="574" y="758" width="222" height="46" rx="8" class="lime stroke"/><text x="622" y="787" class="tiny" font-weight="700">Latihan flashcards →</text>
+    <rect x="842" y="102" width="410" height="716" rx="14" class="card"/>
+    <rect x="864" y="124" width="366" height="76" rx="10" class="cyan"/>
+    <circle cx="906" cy="162" r="24" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/><text x="898" y="168" class="tiny" font-weight="700">M</text>
+    <text x="944" y="156" class="label">Mersi</text><text x="944" y="180" class="tiny">Tanya tentang adegan ini</text>
+    <text x="864" y="244" class="small" font-weight="700">Ungkapan pilihan</text>
+    <rect x="864" y="260" width="366" height="98" rx="9" class="lime"/>
+    <text x="884" y="292" class="label">make it</text><text x="884" y="321" class="small">berhasil · idiom</text><text x="884" y="342" class="tiny">“I knew you'd make it.”</text>
+    <text x="864" y="398" class="small" font-weight="700">Grammar dalam konteks</text>
+    <rect x="864" y="414" width="366" height="118" rx="9" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="884" y="446" class="small">Past simple · “thought”</text><text x="884" y="476" class="tiny">Pikiran di masa lalu tentang</text><text x="884" y="497" class="tiny">hasil yang baru tercapai.</text>
+    <text x="864" y="578" class="small" font-weight="700">Tanya Mersi</text>
+    <rect x="864" y="594" width="366" height="94" rx="9" class="pink"/>
+    <text x="884" y="622" class="tiny">“Make it” di sini artinya berhasil</text><text x="884" y="644" class="tiny">menyelesaikan perjalanan.</text>
+    <rect x="864" y="714" width="366" height="62" rx="8" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="884" y="752" class="tiny muted">Tanyakan sesuatu…</text>
+  </g>
+  <g id="05-player-mobile" transform="translate(1400 4570)">
+    <text x="0" y="0" class="label">05 · PLAYER — MOBILE · 390</text>
+    <rect x="0" y="18" width="390" height="840" rx="20" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="18" y="52" class="small">← Immerse</text><text x="300" y="52" class="tiny" font-weight="700">ID | EN</text>
+    <text x="18" y="82" class="label">The Great Journey · E03</text>
+    <rect x="18" y="102" width="354" height="178" rx="12" class="card"/>
+    <rect x="32" y="116" width="326" height="124" rx="8" class="yellow stroke"/>
+    <circle cx="195" cy="178" r="28" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/><path d="M188 164 L208 178 L188 192 Z" class="ink"/>
+    <text x="42" y="264" class="tiny">VIDEO · 00:42 / 08:15</text>
+    <text x="18" y="310" class="small" font-weight="700">SUBTITLE</text>
+    <rect x="18" y="322" width="354" height="70" rx="9" class="card"/>
+    <rect x="28" y="330" width="334" height="27" rx="4" class="yellow"/>
+    <text x="38" y="348" class="tiny" font-weight="700">EN · I never thought I'd make it this far.</text>
+    <rect x="28" y="361" width="334" height="25" rx="4" class="lime"/>
+    <text x="38" y="379" class="tiny" font-weight="700">ID · Aku tak menyangka bisa sejauh ini.</text>
+    <text x="18" y="424" class="label">PENJELASAN GRAMMAR</text>
+    <rect x="18" y="436" width="354" height="116" rx="10" class="card"/>
+    <text x="34" y="466" class="small" font-weight="700">Past simple · “thought”</text>
+    <text x="34" y="493" class="tiny">Untuk pikiran atau kejadian yang</text><text x="34" y="512" class="tiny">selesai di masa lalu.</text>
+    <text x="34" y="538" class="tiny muted">Contoh: “I thought it was impossible.”</text>
+    <text x="18" y="580" class="label">FLASHCARDS</text>
+    <rect x="18" y="592" width="354" height="202" rx="10" class="card"/>
+    <text x="38" y="628" class="small" font-weight="700">Kata dari video ini</text>
+    <rect x="38" y="646" width="314" height="82" rx="8" class="yellow"/>
+    <text x="56" y="681" class="label">make it</text><text x="56" y="708" class="tiny">18 kata · English → Indonesia</text>
+    <rect x="38" y="744" width="314" height="38" rx="7" class="lime stroke"/>
+    <text x="118" y="769" class="tiny" font-weight="700">Latihan flashcards →</text>
+    <rect x="0" y="812" width="390" height="46" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="22" y="840" class="tiny" font-weight="700">Video</text><text x="144" y="840" class="tiny">Grammar</text><text x="280" y="840" class="tiny">Simpan</text>
+  </g>
+
+  <!-- 06 Vocabulary -->
+  <g id="06-vocabulary-desktop" transform="translate(60 5510)">
+    <text x="0" y="0" class="label">06 · KOSAKATA — DESKTOP · 1440</text>
+    <rect x="0" y="18" width="1280" height="840" rx="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <rect x="0" y="18" width="236" height="840" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="28" y="68" class="h2">IMMERSE</text><line x1="0" y1="92" x2="236" y2="92" class="stroke"/>
+    <text x="44" y="150" class="small">⌂  Dashboard</text><text x="44" y="204" class="small">▶  Video saya</text>
+    <rect x="16" y="226" width="204" height="46" rx="8" class="lime stroke"/><text x="44" y="256" class="small" font-weight="700">▤  Kosakata</text>
+    <text x="1150" y="80" class="tiny" font-weight="700">ID | EN</text>
+    <text x="278" y="80" class="h1">KOSAKATA SAYA</text><text x="278" y="112" class="body">Kata dan ungkapan yang kamu temukan.</text>
+    <rect x="278" y="144" width="632" height="48" rx="8" class="card"/><text x="300" y="175" class="small muted">⌕  Cari kata atau arti…</text>
+    <rect x="926" y="144" width="128" height="48" rx="8" class="card"/><text x="954" y="175" class="small">Semua ▼</text>
+    <rect x="1070" y="144" width="148" height="48" rx="8" class="pink stroke"/><text x="1092" y="175" class="small">Ulangi kata</text>
+    <rect x="278" y="214" width="940" height="80" rx="10" class="cyan stroke"/>
+    <text x="302" y="248" class="label">18 kata tersimpan</text><text x="302" y="274" class="tiny">12 English → Indonesian · 3 video · terakhir diperbarui hari ini</text>
+    <rect x="278" y="318" width="940" height="482" rx="10" class="card"/>
+    <rect x="278" y="318" width="940" height="48" rx="10" class="yellow"/>
+    <text x="302" y="349" class="tiny" font-weight="700">KATA</text><text x="510" y="349" class="tiny" font-weight="700">ARTI</text><text x="730" y="349" class="tiny" font-weight="700">KONTEKS</text><text x="1110" y="349" class="tiny" font-weight="700">AKSI</text>
+    <line x1="294" y1="366" x2="1200" y2="366" class="stroke"/>
+    <text x="302" y="408" class="small" font-weight="700">make it</text><text x="510" y="408" class="small">berhasil</text><text x="730" y="408" class="tiny">The Great Journey · 00:42</text><text x="1118" y="408" class="small">•••</text>
+    <line x1="294" y1="428" x2="1200" y2="428" stroke="#D0D0D0" stroke-width="1"/>
+    <text x="302" y="470" class="small" font-weight="700">figure out</text><text x="510" y="470" class="small">memahami</text><text x="730" y="470" class="tiny">The Great Journey · 01:10</text><text x="1118" y="470" class="small">•••</text>
+    <line x1="294" y1="490" x2="1200" y2="490" stroke="#D0D0D0" stroke-width="1"/>
+    <text x="302" y="532" class="small" font-weight="700">worth it</text><text x="510" y="532" class="small">sepadan</text><text x="730" y="532" class="tiny">City Walk · 03:21</text><text x="1118" y="532" class="small">•••</text>
+    <line x1="294" y1="552" x2="1200" y2="552" stroke="#D0D0D0" stroke-width="1"/>
+    <text x="302" y="594" class="small" font-weight="700">on the way</text><text x="510" y="594" class="small">dalam perjalanan</text><text x="730" y="594" class="tiny">City Walk · 04:04</text><text x="1118" y="594" class="small">•••</text>
+    <line x1="294" y1="614" x2="1200" y2="614" stroke="#D0D0D0" stroke-width="1"/>
+    <text x="302" y="656" class="small" font-weight="700">take your time</text><text x="510" y="656" class="small">santai saja</text><text x="730" y="656" class="tiny">Podcast · 12:48</text><text x="1118" y="656" class="small">•••</text>
+    <text x="302" y="748" class="tiny muted">Menampilkan 5 dari 18 kata</text><text x="1090" y="748" class="tiny">← 1  2  3  4 →</text>
+    <text x="278" y="830" class="tiny muted">Kosong: “Belum ada kata tersimpan. Mulai dari player videomu.” · Aksi: edit / hapus / buka konteks</text>
+  </g>
+  <g id="06-vocabulary-mobile" transform="translate(1400 5510)">
+    <text x="0" y="0" class="label">06 · KOSAKATA — MOBILE · 390</text>
+    <rect x="0" y="18" width="390" height="840" rx="20" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="18" y="58" class="label">IMMERSE</text><text x="280" y="58" class="tiny" font-weight="700">ID | EN</text>
+    <text x="18" y="112" class="h2">KOSAKATA SAYA</text><text x="18" y="138" class="tiny">Kata yang kamu temukan.</text>
+    <rect x="18" y="160" width="354" height="44" rx="8" class="card"/><text x="34" y="188" class="tiny muted">⌕ Cari kata atau arti…</text>
+    <rect x="18" y="218" width="168" height="42" rx="8" class="card"/><text x="38" y="245" class="tiny">Semua kata ▼</text>
+    <rect x="200" y="218" width="172" height="42" rx="8" class="pink stroke"/><text x="225" y="245" class="tiny">Ulangi kata</text>
+    <rect x="18" y="274" width="354" height="70" rx="10" class="cyan stroke"/>
+    <text x="36" y="304" class="label">18 kata tersimpan</text><text x="36" y="328" class="tiny">Dari 3 video · diperbarui hari ini</text>
+    <g>
+      <rect x="18" y="360" width="354" height="82" rx="9" class="card"/>
+      <text x="36" y="390" class="label">make it</text><text x="36" y="418" class="small">berhasil</text><text x="300" y="407" class="small">•••</text>
+      <text x="36" y="436" class="tiny muted">The Great Journey · 00:42</text>
+      <rect x="18" y="454" width="354" height="82" rx="9" class="card"/>
+      <text x="36" y="484" class="label">figure out</text><text x="36" y="512" class="small">memahami</text><text x="300" y="501" class="small">•••</text>
+      <text x="36" y="530" class="tiny muted">The Great Journey · 01:10</text>
+      <rect x="18" y="548" width="354" height="82" rx="9" class="card"/>
+      <text x="36" y="578" class="label">worth it</text><text x="36" y="606" class="small">sepadan</text><text x="300" y="595" class="small">•••</text>
+      <text x="36" y="624" class="tiny muted">City Walk · 03:21</text>
+      <rect x="18" y="642" width="354" height="82" rx="9" class="card"/>
+      <text x="36" y="672" class="label">on the way</text><text x="36" y="700" class="small">dalam perjalanan</text><text x="300" y="689" class="small">•••</text>
+      <text x="36" y="718" class="tiny muted">City Walk · 04:04</text>
+    </g>
+    <text x="18" y="758" class="tiny muted">Belum ada kata? Simpan dari player videomu.</text>
+    <rect x="0" y="812" width="390" height="46" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="18" y="840" class="tiny">Dashboard</text><text x="112" y="840" class="tiny">Video</text><text x="206" y="840" class="tiny">Kosakata</text><text x="316" y="840" class="tiny" font-weight="700">Lainnya</text>
+  </g>
+  <!-- 07 Video setup: learning language pair belongs to each video -->
+  <g id="07-video-setup-desktop" transform="translate(60 6450)">
+    <text x="0" y="0" class="label">07 · VIDEO BARU — DESKTOP · 1440</text>
+    <rect x="0" y="18" width="1280" height="840" rx="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <rect x="0" y="18" width="236" height="840" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="28" y="68" class="h2">IMMERSE</text><line x1="0" y1="92" x2="236" y2="92" class="stroke"/>
+    <text x="44" y="150" class="small">⌂  Dashboard</text>
+    <rect x="16" y="174" width="204" height="46" rx="8" class="lime stroke"/><text x="44" y="204" class="small" font-weight="700">▶  Video saya</text>
+    <text x="44" y="268" class="small">▤  Kosakata</text>
+    <text x="1150" y="78" class="tiny" font-weight="700">ID | EN</text>
+    <text x="278" y="78" class="small muted">Video saya  /  Video baru</text>
+    <text x="278" y="126" class="h1">TAMBAHKAN VIDEO</text>
+    <text x="278" y="158" class="body">Pilih bahasa untuk video ini sebelum mulai belajar.</text>
+    <rect x="278" y="190" width="940" height="136" rx="12" class="card"/>
+    <text x="306" y="228" class="label">1 · Tambahkan video atau subtitle</text>
+    <rect x="306" y="248" width="610" height="52" rx="8" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="326" y="280" class="small muted">Tempel tautan video…</text>
+    <rect x="932" y="248" width="254" height="52" rx="8" class="pink stroke"/>
+    <text x="978" y="280" class="small">Pilih file .srt / .vtt</text>
+    <rect x="278" y="350" width="940" height="288" rx="12" class="card"/>
+    <text x="306" y="394" class="label">2 · Bahasa untuk video ini</text>
+    <text x="306" y="438" class="small">Bahasa ibu</text>
+    <rect x="306" y="452" width="410" height="60" rx="8" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="330" y="490" class="body">Bahasa Indonesia (ID)  ▾</text>
+    <text x="756" y="438" class="small">Bahasa yang ingin dipelajari</text>
+    <rect x="756" y="452" width="430" height="60" rx="8" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="780" y="490" class="body">English (EN)  ▾</text>
+    <text x="306" y="552" class="small">Subtitle target = English · terjemahan = Bahasa Indonesia</text>
+    <text x="306" y="588" class="tiny muted">Pilihan ini hanya untuk video ini dan dapat diubah kapan saja.</text>
+    <rect x="278" y="662" width="940" height="88" rx="10" class="yellow stroke"/>
+    <text x="302" y="698" class="small" font-weight="700">Bahasa tampilan aplikasi diatur terpisah</text>
+    <text x="302" y="728" class="small">ID / EN untuk menu dan antarmuka → Pengaturan &gt; Bahasa aplikasi</text>
+    <rect x="918" y="772" width="300" height="56" rx="8" class="lime stroke"/>
+    <text x="988" y="807" class="label">Lanjut ke video →</text>
+  </g>
+  <g id="07-video-setup-mobile" transform="translate(1400 6450)">
+    <text x="0" y="0" class="label">07 · VIDEO BARU — MOBILE · 390</text>
+    <rect x="0" y="18" width="390" height="840" rx="20" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="18" y="58" class="small">← Dashboard</text><text x="300" y="58" class="tiny" font-weight="700">ID | EN</text>
+    <text x="18" y="106" class="h2">TAMBAHKAN VIDEO</text>
+    <text x="18" y="134" class="tiny">Pilih bahasa untuk video ini.</text>
+    <rect x="18" y="158" width="354" height="112" rx="10" class="card"/>
+    <text x="36" y="190" class="small" font-weight="700">1 · Video atau subtitle</text>
+    <rect x="36" y="206" width="318" height="48" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="52" y="236" class="tiny muted">Tempel tautan video…</text>
+    <rect x="18" y="286" width="354" height="348" rx="10" class="card"/>
+    <text x="36" y="322" class="small" font-weight="700">2 · Bahasa video</text>
+    <text x="36" y="364" class="small">Bahasa ibu</text>
+    <rect x="36" y="376" width="318" height="50" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="52" y="407" class="small">Bahasa Indonesia (ID)  ▾</text>
+    <text x="36" y="464" class="small">Bahasa yang ingin dipelajari</text>
+    <rect x="36" y="476" width="318" height="50" rx="7" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="52" y="507" class="small">English (EN)  ▾</text>
+    <text x="36" y="556" class="tiny">Target subtitle: English</text>
+    <text x="36" y="578" class="tiny">Terjemahan: Bahasa Indonesia</text>
+    <text x="36" y="608" class="tiny muted">Khusus video ini; ubah kapan saja.</text>
+    <rect x="18" y="650" width="354" height="92" rx="10" class="yellow stroke"/>
+    <text x="36" y="684" class="small" font-weight="700">Bahasa aplikasi terpisah</text>
+    <text x="36" y="710" class="tiny">ID / EN untuk menu ada di Pengaturan.</text>
+    <rect x="18" y="758" width="354" height="54" rx="8" class="lime stroke"/>
+    <text x="112" y="792" class="label">Lanjut ke video →</text>
+  </g>
+
+  <!-- 08 Flashcards -->
+  <g id="08-flashcards-desktop" transform="translate(60 7390)">
+    <text x="0" y="0" class="label">08 · FLASHCARDS — DESKTOP · 1440</text>
+    <rect x="0" y="18" width="1280" height="840" rx="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <rect x="0" y="18" width="236" height="840" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="28" y="68" class="h2">IMMERSE</text><line x1="0" y1="92" x2="236" y2="92" class="stroke"/>
+    <text x="44" y="148" class="small">⌂  Dashboard</text>
+    <rect x="16" y="172" width="204" height="46" rx="8" class="lime stroke"/><text x="44" y="202" class="small" font-weight="700">▶  Video saya</text>
+    <text x="44" y="266" class="small">▤  Kosakata</text>
+    <text x="1150" y="80" class="tiny" font-weight="700">ID | EN</text>
+    <text x="278" y="80" class="h1">FLASHCARDS</text><text x="278" y="112" class="body">Latih kata yang sudah kamu simpan dari video.</text>
+    <rect x="278" y="144" width="940" height="74" rx="10" class="card"/>
+    <text x="302" y="176" class="small" font-weight="700">Deck: Semua kosakata</text><text x="302" y="200" class="tiny muted">English → Bahasa Indonesia · 18 kartu</text>
+    <rect x="998" y="160" width="194" height="42" rx="8" class="pink stroke"/><text x="1026" y="187" class="small">Pilih deck ▾</text>
+    <text x="278" y="264" class="small">Progress hari ini</text>
+    <rect x="278" y="280" width="940" height="16" rx="8" fill="#E5E5E5"/><rect x="278" y="280" width="376" height="16" rx="8" class="lime"/>
+    <text x="278" y="322" class="tiny">8 dari 20 kartu · 12 tersisa</text>
+    <rect x="380" y="350" width="736" height="350" rx="18" class="card"/>
+    <text x="424" y="394" class="tiny muted">KARTU 8 / 20</text>
+    <text x="748" y="502" class="h1">make it</text>
+    <text x="648" y="552" class="small muted">Tekan untuk melihat arti</text>
+    <rect x="420" y="606" width="656" height="56" rx="8" class="yellow stroke"/>
+    <text x="620" y="641" class="small">Balik kartu ↻</text>
+    <rect x="278" y="730" width="940" height="80" rx="12" class="cyan stroke"/>
+    <text x="308" y="762" class="small" font-weight="700">Setelah kartu dibalik, nilai ingatanmu:</text>
+    <rect x="308" y="778" width="150" height="28" rx="6" class="pink stroke"/><text x="350" y="797" class="tiny">Ulangi</text>
+    <rect x="472" y="778" width="150" height="28" rx="6" class="card"/><text x="518" y="797" class="tiny">Sulit</text>
+    <rect x="636" y="778" width="150" height="28" rx="6" class="card"/><text x="682" y="797" class="tiny">Ingat</text>
+    <rect x="800" y="778" width="150" height="28" rx="6" class="lime stroke"/><text x="846" y="797" class="tiny">Mudah</text>
+  </g>
+  <g id="08-flashcards-mobile" transform="translate(1400 7390)">
+    <text x="0" y="0" class="label">08 · FLASHCARDS — MOBILE · 390</text>
+    <rect x="0" y="18" width="390" height="840" rx="20" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="18" y="58" class="small">← Video</text><text x="300" y="58" class="tiny" font-weight="700">ID | EN</text><text x="18" y="108" class="h2">FLASHCARDS</text>
+    <rect x="18" y="130" width="354" height="70" rx="9" class="card"/>
+    <text x="36" y="160" class="small" font-weight="700">Semua kosakata ▾</text><text x="36" y="184" class="tiny">English → Bahasa Indonesia · 18 kartu</text>
+    <text x="18" y="234" class="tiny">8 / 20 kartu selesai hari ini</text>
+    <rect x="18" y="248" width="354" height="14" rx="7" fill="#E5E5E5"/><rect x="18" y="248" width="142" height="14" rx="7" class="lime"/>
+    <rect x="18" y="286" width="354" height="300" rx="16" class="card"/>
+    <text x="38" y="320" class="tiny muted">KARTU 8 / 20</text>
+    <text x="113" y="428" class="h1">make it</text>
+    <text x="100" y="474" class="small muted">Ketuk untuk melihat arti</text>
+    <rect x="40" y="518" width="310" height="48" rx="8" class="yellow stroke"/>
+    <text x="143" y="549" class="small">Balik kartu ↻</text>
+    <text x="18" y="626" class="small" font-weight="700">Sudah tahu jawabannya?</text>
+    <rect x="18" y="646" width="168" height="54" rx="8" class="pink stroke"/><text x="78" y="680" class="small">Ulangi</text>
+    <rect x="204" y="646" width="168" height="54" rx="8" class="card"/><text x="262" y="680" class="small">Sulit</text>
+    <rect x="18" y="716" width="168" height="54" rx="8" class="card"/><text x="70" y="750" class="small">Ingat</text>
+    <rect x="204" y="716" width="168" height="54" rx="8" class="lime stroke"/><text x="256" y="750" class="small">Mudah</text>
+    <text x="36" y="798" class="tiny muted">Arti / konteks muncul saat kartu dibalik.</text>
+    <rect x="0" y="812" width="390" height="46" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="2"/>
+    <text x="18" y="840" class="tiny">Dashboard</text><text x="112" y="840" class="tiny">Video</text><text x="206" y="840" class="tiny" font-weight="700">Flashcards</text><text x="316" y="840" class="tiny">Lainnya</text>
+  </g>
+
+  <!-- 09 App language settings: ID/EN is UI only -->
+  <g id="09-app-language-desktop" transform="translate(60 8330)">
+    <text x="0" y="0" class="label">09 · PENGATURAN BAHASA APLIKASI — DESKTOP · 1440</text>
+    <rect x="0" y="18" width="1280" height="840" rx="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <rect x="0" y="18" width="236" height="840" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="28" y="68" class="h2">IMMERSE</text><line x1="0" y1="92" x2="236" y2="92" class="stroke"/>
+    <text x="44" y="148" class="small">⌂  Dashboard</text><text x="44" y="198" class="small">▶  Video saya</text>
+    <text x="44" y="248" class="small">▢  Flashcards</text><text x="44" y="298" class="small">▤  Kosakata</text>
+    <rect x="16" y="338" width="204" height="46" rx="8" class="lime stroke"/><text x="44" y="368" class="small" font-weight="700">⚙  Pengaturan</text>
+    <text x="278" y="80" class="small muted">Pengaturan</text><text x="278" y="128" class="h1">BAHASA APLIKASI</text>
+    <text x="278" y="160" class="body">Ubah bahasa menu dan antarmuka Immerse.</text>
+    <rect x="278" y="194" width="940" height="260" rx="12" class="card"/>
+    <text x="312" y="242" class="label">Bahasa tampilan</text>
+    <text x="312" y="276" class="small muted">Hanya mengubah teks menu, tombol, dan navigasi aplikasi.</text>
+    <rect x="312" y="310" width="410" height="96" rx="10" class="yellow stroke"/>
+    <circle cx="350" cy="358" r="13" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <circle cx="350" cy="358" r="6" class="ink"/>
+    <text x="382" y="352" class="label">Bahasa Indonesia</text><text x="382" y="378" class="small">ID · Terpilih</text>
+    <rect x="756" y="310" width="426" height="96" rx="10" class="card"/>
+    <circle cx="794" cy="358" r="13" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="826" y="352" class="label">English</text><text x="826" y="378" class="small">EN</text>
+    <rect x="278" y="480" width="940" height="106" rx="10" class="pink stroke"/>
+    <text x="306" y="520" class="small" font-weight="700">Bahasa video tidak diubah di sini.</text>
+    <text x="306" y="552" class="small">Atur Bahasa ibu dan Bahasa yang dipelajari pada setiap video.</text>
+    <rect x="1000" y="622" width="218" height="54" rx="8" class="lime stroke"/>
+    <text x="1038" y="656" class="small" font-weight="700">Simpan pilihan</text>
+  </g>
+  <g id="09-app-language-mobile" transform="translate(1400 8330)">
+    <text x="0" y="0" class="label">09 · BAHASA APLIKASI — MOBILE · 390</text>
+    <rect x="0" y="18" width="390" height="840" rx="20" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="18" y="58" class="small">← Pengaturan</text><text x="300" y="58" class="tiny" font-weight="700">ID | EN</text><text x="18" y="112" class="h2">BAHASA APLIKASI</text>
+    <text x="18" y="142" class="tiny">Bahasa menu dan antarmuka Immerse.</text>
+    <rect x="18" y="174" width="354" height="112" rx="10" class="yellow stroke"/>
+    <circle cx="50" cy="216" r="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/><circle cx="50" cy="216" r="6" class="ink"/>
+    <text x="78" y="218" class="label">Bahasa Indonesia</text><text x="78" y="250" class="small">ID · Terpilih</text>
+    <rect x="18" y="302" width="354" height="112" rx="10" class="card"/>
+    <circle cx="50" cy="344" r="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="78" y="346" class="label">English</text><text x="78" y="378" class="small">EN</text>
+    <rect x="18" y="442" width="354" height="130" rx="10" class="pink stroke"/>
+    <text x="38" y="480" class="small" font-weight="700">Bahasa video diatur terpisah.</text>
+    <text x="38" y="512" class="tiny">Pilih bahasa ibu dan bahasa belajar</text><text x="38" y="534" class="tiny">di pengaturan masing-masing video.</text>
+    <rect x="18" y="600" width="354" height="54" rx="8" class="lime stroke"/>
+    <text x="130" y="634" class="small" font-weight="700">Simpan pilihan</text>
+  </g>
+
+  <!-- 10 Subscription plans -->
+  <g id="10-subscription-desktop" transform="translate(60 9270)">
+    <text x="0" y="0" class="label">10 · PAKET LANGGANAN — DESKTOP · 1440 · DRAFT</text>
+    <rect x="0" y="18" width="1280" height="840" rx="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="40" y="68" class="label">← IMMERSE</text><text x="1150" y="68" class="tiny" font-weight="700">ID | EN</text><text x="278" y="142" class="h1">PILIH PAKET BELAJARMU</text>
+    <text x="278" y="176" class="body">Pilih Basic, Pro, atau Max. Harga dan batas fitur ditampilkan sebagai TBD sampai ditentukan.</text>
+    <rect x="278" y="220" width="296" height="430" rx="14" class="card"/>
+    <text x="306" y="270" class="h2">Basic</text><text x="306" y="314" class="h1">Rp —</text><text x="306" y="344" class="small">/ bulan · TBD</text>
+    <line x1="306" y1="366" x2="546" y2="366" class="stroke"/>
+    <text x="306" y="406" class="small">Video &amp; subtitle</text><text x="306" y="444" class="small">Grammar &amp; kosakata</text>
+    <text x="306" y="482" class="small">Flashcards &amp; kuis</text><text x="306" y="524" class="tiny muted">Batas pemakaian · TBD</text>
+    <rect x="306" y="574" width="240" height="54" rx="8" class="card"/><text x="380" y="608" class="small">Pilih Basic</text>
+    <rect x="590" y="220" width="296" height="430" rx="14" class="card"/>
+    <rect x="590" y="220" width="296" height="48" rx="12" class="lime"/>
+    <text x="694" y="251" class="tiny" font-weight="700">TINGKAT MENENGAH</text>
+    <text x="618" y="314" class="h2">Pro</text><text x="618" y="358" class="h1">Rp —</text><text x="618" y="388" class="small">/ bulan · TBD</text>
+    <line x1="618" y1="410" x2="858" y2="410" class="stroke"/>
+    <text x="618" y="450" class="small">Semua fitur Basic</text><text x="618" y="488" class="small">Batas lebih tinggi · TBD</text>
+    <text x="618" y="526" class="small">Latihan lanjutan · TBD</text>
+    <rect x="618" y="574" width="240" height="54" rx="8" class="lime stroke"/><text x="692" y="608" class="small" font-weight="700">Pilih Pro</text>
+    <rect x="902" y="220" width="316" height="430" rx="14" class="card"/>
+    <text x="930" y="270" class="h2">Max</text><text x="930" y="314" class="h1">Rp —</text><text x="930" y="344" class="small">/ bulan · TBD</text>
+    <line x1="930" y1="366" x2="1190" y2="366" class="stroke"/>
+    <text x="930" y="406" class="small">Semua fitur Pro</text><text x="930" y="444" class="small">Penggunaan maksimum · TBD</text>
+    <text x="930" y="482" class="small">Fitur premium · TBD</text><text x="930" y="524" class="tiny muted">Batas &amp; dukungan · TBD</text>
+    <rect x="930" y="574" width="260" height="54" rx="8" class="card"/><text x="1010" y="608" class="small">Pilih Max</text>
+    <rect x="278" y="686" width="940" height="112" rx="10" class="pink stroke"/>
+    <text x="308" y="728" class="small" font-weight="700">Paket sudah ditetapkan: Basic · Pro · Max</text>
+    <text x="308" y="760" class="small">Harga, batas video / AI, periode tagihan, pembatalan, trial, dan refund masih TBD.</text>
+  </g>
+  <g id="10-subscription-mobile" transform="translate(1400 9270)">
+    <text x="0" y="0" class="label">10 · PAKET LANGGANAN — MOBILE · DRAFT</text>
+    <rect x="0" y="18" width="390" height="840" rx="20" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="18" y="58" class="small">← Immerse</text><text x="300" y="58" class="tiny" font-weight="700">ID | EN</text><text x="18" y="108" class="h2">PILIH PAKET</text>
+    <text x="18" y="136" class="tiny">Pilih paket · harga dan batas masih TBD.</text>
+    <rect x="18" y="156" width="354" height="184" rx="10" class="card"/>
+    <text x="36" y="190" class="h2">Basic</text><text x="258" y="190" class="small">Rp —</text>
+    <text x="36" y="218" class="tiny">/ bulan · TBD</text><text x="36" y="250" class="tiny">Video, subtitle, grammar, kartu, kuis</text>
+    <text x="36" y="274" class="tiny muted">Batas pemakaian · TBD</text>
+    <rect x="36" y="292" width="318" height="34" rx="7" class="card"/><text x="162" y="314" class="tiny">Pilih Basic</text>
+    <rect x="18" y="352" width="354" height="184" rx="10" class="card"/>
+    <rect x="18" y="352" width="354" height="30" rx="10" class="lime"/>
+    <text x="164" y="372" class="tiny" font-weight="700">TINGKAT MENENGAH</text>
+    <text x="36" y="414" class="h2">Pro</text><text x="258" y="414" class="small">Rp —</text>
+    <text x="36" y="440" class="tiny">/ bulan · TBD</text><text x="36" y="468" class="tiny">Semua Basic · batas &amp; fitur lanjutan TBD</text>
+    <rect x="36" y="488" width="318" height="34" rx="7" class="lime stroke"/><text x="162" y="510" class="tiny">Pilih Pro</text>
+    <rect x="18" y="548" width="354" height="184" rx="10" class="card"/>
+    <text x="36" y="582" class="h2">Max</text><text x="258" y="582" class="small">Rp —</text>
+    <text x="36" y="610" class="tiny">/ bulan · TBD</text><text x="36" y="642" class="tiny">Semua Pro · penggunaan maksimum TBD</text>
+    <text x="36" y="666" class="tiny muted">Fitur premium &amp; batas · TBD</text>
+    <rect x="36" y="684" width="318" height="34" rx="7" class="card"/><text x="162" y="706" class="tiny">Pilih Max</text>
+    <text x="18" y="766" class="tiny muted">Harga dan ketentuan langganan belum ditentukan.</text>
+    <text x="18" y="790" class="tiny muted">Wireframe saja; belum ada pembelian aktif.</text>
+  </g>
+
+  <!-- 11 Post-video quiz and learning XP -->
+  <g id="11-post-video-quiz-desktop" transform="translate(60 10210)">
+    <text x="0" y="0" class="label">11 · KUIS SETELAH VIDEO — DESKTOP · 1440</text>
+    <rect x="0" y="18" width="1280" height="840" rx="12" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <line x1="0" y1="78" x2="1280" y2="78" class="stroke"/>
+    <text x="28" y="54" class="label">← IMMERSE</text><text x="230" y="54" class="small">The Great Journey · E03 · Selesai</text>
+    <text x="1150" y="54" class="tiny" font-weight="700">ID | EN</text>
+    <text x="54" y="132" class="h1">VIDEO SELESAI!</text>
+    <text x="54" y="166" class="body">Uji pemahamanmu untuk menambah EXP dan progres belajar.</text>
+    <rect x="54" y="194" width="1172" height="96" rx="12" class="yellow stroke"/>
+    <text x="82" y="232" class="label">Video selesai · +20 EXP</text>
+    <text x="82" y="262" class="small">Selesaikan empat latihan untuk mendapatkan hingga +80 EXP tambahan.</text>
+    <rect x="986" y="210" width="210" height="62" rx="10" class="card"/>
+    <text x="1010" y="236" class="tiny muted">TOTAL POTENSIAL</text><text x="1010" y="260" class="label">+100 EXP</text>
+    <text x="54" y="334" class="h2">TES PEMAHAMAN</text>
+    <rect x="54" y="354" width="558" height="150" rx="12" class="card"/>
+    <rect x="74" y="374" width="64" height="64" rx="10" class="yellow stroke"/><text x="90" y="414" class="h2">G</text>
+    <text x="158" y="396" class="label">Grammar</text><text x="158" y="424" class="small">Pilih bentuk kata kerja yang tepat.</text>
+    <text x="158" y="462" class="tiny muted">5 soal · +20 EXP</text>
+    <rect x="456" y="430" width="134" height="48" rx="8" class="lime stroke"/><text x="487" y="460" class="tiny" font-weight="700">Mulai tes →</text>
+    <rect x="632" y="354" width="594" height="150" rx="12" class="card"/>
+    <rect x="652" y="374" width="64" height="64" rx="10" class="yellow stroke"/><text x="669" y="414" class="h2">S</text>
+    <text x="736" y="396" class="label">Speaking</text><text x="736" y="424" class="small">Ucapkan ulang kalimat dari video.</text>
+    <text x="736" y="462" class="tiny muted">Latihan lisan · +20 EXP</text>
+    <rect x="1070" y="430" width="134" height="48" rx="8" class="card"/><text x="1092" y="460" class="tiny">Mulai tes →</text>
+    <rect x="54" y="522" width="558" height="150" rx="12" class="card"/>
+    <rect x="74" y="542" width="64" height="64" rx="10" class="yellow stroke"/><text x="90" y="582" class="h2">L</text>
+    <text x="158" y="564" class="label">Listening</text><text x="158" y="592" class="small">Dengarkan lalu pilih kalimat yang terdengar.</text>
+    <text x="158" y="630" class="tiny muted">5 soal audio · +20 EXP</text>
+    <rect x="456" y="598" width="134" height="48" rx="8" class="card"/><text x="478" y="628" class="tiny">Mulai tes →</text>
+    <rect x="632" y="522" width="594" height="150" rx="12" class="card"/>
+    <rect x="652" y="542" width="64" height="64" rx="10" class="yellow stroke"/><text x="668" y="582" class="h2">W</text>
+    <text x="736" y="564" class="label">Writing</text><text x="736" y="592" class="small">Tulis ulang makna kalimat dengan kata sendiri.</text>
+    <text x="736" y="630" class="tiny muted">Jawaban singkat · +20 EXP</text>
+    <rect x="1070" y="598" width="134" height="48" rx="8" class="card"/><text x="1092" y="628" class="tiny">Mulai tes →</text>
+    <rect x="54" y="700" width="1172" height="112" rx="12" class="cyan stroke"/>
+    <text x="82" y="738" class="small" font-weight="700">PROGRES BELAJAR</text>
+    <text x="82" y="772" class="small">340 / 500 EXP · Level 2</text>
+    <rect x="350" y="744" width="520" height="18" rx="9" fill="#E5E5E5"/><rect x="350" y="744" width="354" height="18" rx="9" class="lime"/>
+    <text x="902" y="758" class="tiny">Selesaikan tes untuk mengisi progres berikutnya.</text>
+  </g>
+  <g id="11-post-video-quiz-mobile" transform="translate(1400 10210)">
+    <text x="0" y="0" class="label">11 · KUIS SETELAH VIDEO — MOBILE · 390</text>
+    <rect x="0" y="18" width="390" height="840" rx="20" fill="#FFFFFF" stroke="#0F0F0F" stroke-width="3"/>
+    <text x="18" y="58" class="small">← Video selesai</text><text x="300" y="58" class="tiny" font-weight="700">ID | EN</text>
+    <text x="18" y="108" class="h2">VIDEO SELESAI!</text>
+    <text x="18" y="136" class="tiny">Tes singkat dapat EXP &amp; progres.</text>
+    <rect x="18" y="158" width="354" height="74" rx="10" class="yellow stroke"/>
+    <text x="36" y="188" class="small" font-weight="700">Video selesai · +20 EXP</text>
+    <text x="36" y="214" class="tiny">4 tes · hingga +80 EXP tambahan</text>
+    <text x="18" y="270" class="small" font-weight="700">PILIH LATIHAN</text>
+    <rect x="18" y="286" width="354" height="104" rx="10" class="card"/>
+    <rect x="32" y="306" width="52" height="52" rx="8" class="yellow stroke"/><text x="47" y="342" class="h2">G</text>
+    <text x="100" y="320" class="small" font-weight="700">Grammar</text><text x="100" y="344" class="tiny">5 soal · +20 EXP</text>
+    <rect x="260" y="328" width="96" height="40" rx="7" class="lime stroke"/><text x="276" y="353" class="tiny">Mulai →</text>
+    <rect x="18" y="402" width="354" height="104" rx="10" class="card"/>
+    <rect x="32" y="422" width="52" height="52" rx="8" class="yellow stroke"/><text x="48" y="458" class="h2">S</text>
+    <text x="100" y="436" class="small" font-weight="700">Speaking</text><text x="100" y="460" class="tiny">Ucapkan kalimat · +20 EXP</text>
+    <rect x="260" y="444" width="96" height="40" rx="7" class="card"/><text x="276" y="469" class="tiny">Mulai →</text>
+    <rect x="18" y="518" width="354" height="104" rx="10" class="card"/>
+    <rect x="32" y="538" width="52" height="52" rx="8" class="yellow stroke"/><text x="49" y="574" class="h2">L</text>
+    <text x="100" y="552" class="small" font-weight="700">Listening</text><text x="100" y="576" class="tiny">Dengar &amp; pilih · +20 EXP</text>
+    <rect x="260" y="560" width="96" height="40" rx="7" class="card"/><text x="276" y="585" class="tiny">Mulai →</text>
+    <rect x="18" y="634" width="354" height="104" rx="10" class="card"/>
+    <rect x="32" y="654" width="52" height="52" rx="8" class="yellow stroke"/><text x="44" y="690" class="h2">W</text>
+    <text x="100" y="668" class="small" font-weight="700">Writing</text><text x="100" y="692" class="tiny">Tulis ulang makna · +20 EXP</text>
+    <rect x="260" y="676" width="96" height="40" rx="7" class="card"/><text x="276" y="701" class="tiny">Mulai →</text>
+    <rect x="18" y="754" width="354" height="52" rx="9" class="cyan stroke"/>
+    <text x="36" y="777" class="tiny" font-weight="700">PROGRES · 340 / 500 EXP · Level 2</text>
+    <text x="36" y="797" class="tiny">Selesaikan tes untuk mendapat EXP.</text>
+  </g>
+</svg>

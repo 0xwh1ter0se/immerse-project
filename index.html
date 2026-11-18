@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#F5F1E6">
+  <title>Immerse — Belajar bahasa dari video apa pun</title>
+  <meta name="description" content="Tempel link video apa pun. Dapatkan subtitle ganda, tabel transkrip dengan grammar, dan Mersi — asisten AI yang menjelaskan setiap kata.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Lompat ke konten</a>
+
+  <header class="nav">
+    <div class="wrap nav__in">
+      <a class="brand" href="#" aria-label="Immerse beranda">
+        <img src="assets/logo.svg" alt="" width="150" height="50">
+      </a>
+      <nav aria-label="Utama">
+        <a href="#fitur">Fitur</a>
+        <a href="#cara">Cara kerja</a>
+        <a href="#mersi">Mersi</a>
+      </nav>
+      <a class="btn btn--ghost" href="#coba">Coba gratis</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero__grid">
+        <div class="hero__copy">
+          <div class="tag">★ Konsep visual · belum memproses video</div>
+          <h1>Film, podcast, video kuliah — <span class="hl">semua</span> jadi kelas bahasa.</h1>
+          <p class="lede">Tempel link atau unggah video. Immerse bikin subtitle ganda, membedah grammar di tabel transkrip, dan <strong>Mersi</strong> — asisten AI — siap menjelaskan setiap kata.</p>
+          <div class="inputline" id="coba">
+            <label class="sr" for="url">Contoh link video — belum diproses</label>
+            <input id="url" type="url" inputmode="url" placeholder="https://youtube.com/watch?v=…" aria-describedby="demo-note">
+            <a class="btn btn--primary" href="#demo">Lihat contoh →</a>
+          </div>
+          <p class="fine" id="demo-note">Nama Immerse + Mersi sementara · cek trademark sebelum rilis.</p>
+          <div class="badges" aria-label="Sumber yang didukung">
+            <span class="chip">YouTube</span>
+            <span class="chip">Netflix*</span>
+            <span class="chip">Podcast</span>
+            <span class="chip">File lokal</span>
+          </div>
+        </div>
+
+        <!-- Mock pemutar -->
+        <div class="player" id="demo" aria-label="Contoh antarmuka pemutar Immerse">
+          <div class="player__screen">
+            <img class="player__mascot" src="assets/mascot.svg" alt="">
+            <div class="sub sub--top">I <span class="hl-word">would have called</span> you earlier</div>
+            <div class="sub sub--bottom">Aku <span class="hl-word">seharusnya menelepon</span>mu lebih awal</div>
+          </div>
+          <aside class="player__side">
+            <div class="side__head">⚡ Transkrip · grammar</div>
+            <table>
+              <tbody>
+                <tr><td><strong>would have</strong></td><td>modal perfect — penyesalan</td></tr>
+                <tr><td><strong>called</strong></td><td>V3 (past participle)</td></tr>
+                <tr><td><strong>earlier</strong></td><td>komparatif waktu</td></tr>
+              </tbody>
+            </table>
+            <div class="mersi-chip">💬 Tanya <strong>Mersi</strong>: kenapa bukan "would call"?</div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- FITUR -->
+    <section id="fitur" class="section">
+      <div class="wrap">
+        <h2>Empat alat, satu layar.</h2>
+        <div class="cards">
+          <article class="card card--yellow">
+            <div class="card__num">01</div>
+            <h3>Subtitle ganda</h3>
+            <p>Baris atas bahasa target, baris bawah bahasa ibu. Sinkron audio, klik per kata.</p>
+          </article>
+          <article class="card card--pink">
+            <div class="card__num">02</div>
+            <h3>Tabel transkrip</h3>
+            <p>Setiap kalimat dibedah: pola grammar, bentuk kata, level CEFR. Bukan sekadar terjemahan.</p>
+          </article>
+          <article class="card card--cyan">
+            <div class="card__num">03</div>
+            <h3>Kontenmu sendiri</h3>
+            <p>Film, podcast, kuliah, vlog. Tempel link atau unggah file — kamu pilih bahan belajarmu.</p>
+          </article>
+          <article class="card card--lime">
+            <div class="card__num">04</div>
+            <h3>Mersi, asisten AI</h3>
+            <p>Tanya kenapa kalimat begini, minta contoh lain, latihan ulang — tanpa pindah tab.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARA KERJA -->
+    <section id="cara" class="section section--alt">
+      <div class="wrap">
+        <h2>Tiga langkah.</h2>
+        <ol class="steps">
+          <li class="step step--yellow" data-n="1"><strong>Tempel link</strong><span>YouTube, podcast, atau file video dari perangkatmu.</span></li>
+          <li class="step step--pink" data-n="2"><strong>Pilih bahasa</strong><span>Bahasa target di atas, bahasa ibumu di bawah.</span></li>
+          <li class="step step--cyan" data-n="3"><strong>Belajar sambil nonton</strong><span>Klik kata, baca grammar, tanya Mersi, simpan flashcard.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- MERSI -->
+    <section id="mersi" class="section">
+      <div class="wrap mersi">
+        <img src="assets/mascot.svg" alt="Maskot Mersi" width="220" height="165">
+        <div>
+          <h2>Kenalkan, <span class="hl">Mersi</span>.</h2>
+          <p>Teman belajarmu yang tinggal di dalam video. Mersi menjelaskan grammar dengan konteks adegan, memberi contoh kalimat baru, dan mengoreksi latihanmu — dalam bahasa yang kamu pilih.</p>
+          <div class="chat">
+            <p class="chat__q">Mersi, kenapa pakai "would have" di sini?</p>
+            <p class="chat__a">Itu pola <em>third conditional</em>: menyesali hal yang tidak terjadi. Bandingkan: "I would call you" = masih mungkin. "I would have called" = sudah lewat.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="wrap cta__in">
+        <h2>Video favoritmu adalah kelas bahasa terbaikmu.</h2>
+        <a class="btn btn--primary btn--lg" href="#coba">Mulai gratis →</a>
+        <p class="fine">Tanpa kartu kredit. 3 video pertama gratis.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <img src="assets/logo.svg" alt="Immerse" width="110" height="37">
+      <p>© 2026 Immerse · immerse.app</p>
+      <p class="fine">Mockup konsep · nama sementara · cek trademark sebelum produksi.</p>
+    </div>
+  </footer>
+</body>
+</html>

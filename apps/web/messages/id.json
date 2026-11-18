@@ -1,0 +1,307 @@
+{
+  "Metadata": {
+    "title": "IMMERSE",
+    "description": "Belajar bahasa melalui video favorit."
+  },
+  "Header": {
+    "homeLabel": "Immerse, beranda",
+    "navigationLabel": "Navigasi utama",
+    "plans": "Paket",
+    "login": "Masuk",
+    "register": "Daftar",
+    "languageLabel": "Bahasa",
+    "indonesian": "Bahasa Indonesia",
+    "english": "English"
+  },
+  "Landing": {
+    "heroEyebrow": "Belajar bahasa dari video pilihanmu",
+    "heroTitle": "Video favoritmu, jadi guru bahasamu.",
+    "heroDescription": "Belajar bahasa dari adegan yang bikin kamu betah menonton. Simpan kata, pahami kalimat, lalu pakai di dunia nyata.",
+    "startLearning": "Mulai belajar",
+    "seeHow": "Lihat cara belajar",
+    "watchingRoom": "RUANG MENONTON",
+    "learningStatus": "SEDANG BELAJAR",
+    "examplePhrase": "A little goes a long way.",
+    "sceneCaption": "Satu adegan",
+    "dailyTab": "Tab baru setiap hari",
+    "featuresEyebrow": "Bukan hafalan semata",
+    "featuresTitle": "Belajar sambil menikmati cerita.",
+    "featuresDescription": "Ambil pelajaran dari video yang memang ingin kamu tonton.",
+    "benefits": [
+      {
+        "index": "01 / DENGAR",
+        "title": "Bahasa dalam konteks",
+        "text": "Dengar kata-kata di momen saat orang benar-benar mengucapkannya."
+      },
+      {
+        "index": "02 / SIMPAN",
+        "title": "Kata yang menempel",
+        "text": "Simpan ungkapan baru dan temukan lagi saat kamu siap belajar."
+      },
+      {
+        "index": "03 / ULANGI",
+        "title": "Latihan sesuai ritmemu",
+        "text": "Gunakan kartu kata untuk mengingat tanpa buru-buru."
+      },
+      {
+        "index": "04 / NIKMATI",
+        "title": "Cerita tetap milikmu",
+        "text": "Kamu belajar. Ceritanya tetap jadi bagian dari waktu santaimu."
+      }
+    ],
+    "stepsEyebrow": "Singkat saja, tiga langkah",
+    "stepsTitle": "Mulai dari play.",
+    "stepsDescription": "Belajar bahasa tidak harus terasa seperti mengerjakan PR.",
+    "steps": [
+      {
+        "title": "Pilih video",
+        "text": "Mulai dari video yang membuatmu penasaran."
+      },
+      {
+        "title": "Ikuti kata",
+        "text": "Lihat transkrip dan simpan kata yang baru."
+      },
+      {
+        "title": "Ulangi sebentar",
+        "text": "Latih lagi dengan kartu dan progresmu sendiri."
+      }
+    ],
+    "mascotViews": [
+      {
+        "label": "DEPAN",
+        "alt": "Tampak depan Mersi"
+      },
+      {
+        "label": "SAMPING",
+        "alt": "Tampak samping Mersi"
+      },
+      {
+        "label": "BELAKANG",
+        "alt": "Tampak belakang Mersi"
+      }
+    ],
+    "mascotEyebrow": "Teman belajar, bukan robot",
+    "mascotTitle": "Kenalan dengan Mersi.",
+    "mascotDescription": "Kucing penasaran dengan topi biru terbalik, hoodie favorit, dan ransel kuningnya. Mersi menemanimu dari awal sampai selesai—dan siap membantu saat kamu bingung.",
+    "startWithMersi": "Mulai belajar bareng",
+    "finalEyebrow": "LANGKAH PERTAMA",
+    "finalTitle": "Siap belajar dari cerita yang kamu suka?",
+    "tryImmerse": "Coba IMMERSE",
+    "mascotAlt": "Maskot Mersi, kucing oranye dengan topi biru terbalik dan hoodie biru",
+    "fishAlt": "Mersi memegang ikan",
+    "runningAlt": "Mersi berlari mengikuti langkah belajar",
+    "jumpingAlt": "Mersi melompat dengan gembira",
+    "footerTagline": "Bahasa terasa lebih dekat lewat cerita yang kamu suka.",
+    "contact": "Ada yang ingin ditanyakan?",
+    "finalDescription": "Mulai dari video pendek favoritmu. Mersi siap menemani dari kata pertama.",
+    "finalCta": "Mulai belajar gratis"
+  },
+  "Auth": {
+    "oauth": {
+      "continueWithGoogle": "Lanjut dengan Google"
+    },
+    "login": {
+      "title": "Masuk",
+      "description": "Gunakan akun Gmail yang terdaftar.",
+      "email": "Email",
+      "emailPlaceholder": "nama@gmail.com",
+      "password": "Password",
+      "validationError": "Periksa kembali data masuk.",
+      "invalidCredentials": "Email atau password tidak cocok.",
+      "serviceError": "Layanan masuk sedang tidak dapat dijangkau.",
+      "submitting": "Memproses...",
+      "or": "atau",
+      "noAccount": "Belum punya akun?",
+      "register": "Daftar"
+    },
+    "register": {
+      "title": "Daftar",
+      "description": "Gunakan Gmail, nomor telepon aktif, dan password kuat.",
+      "name": "Nama",
+      "email": "Email Gmail",
+      "emailPlaceholder": "nama@gmail.com",
+      "country": "Negara",
+      "phone": "Nomor telepon",
+      "phonePlaceholder": "81234567890",
+      "password": "Password",
+      "passwordHint": "Minimal 8 karakter, diawali huruf kapital, dan punya huruf kecil, angka, serta simbol.",
+      "validationError": "Periksa kembali data daftar.",
+      "emailConflict": "Email atau nomor ini sudah terdaftar.",
+      "invalidData": "Data belum dapat digunakan. Periksa nomor telepon dan password.",
+      "serviceError": "Layanan daftar sedang tidak dapat dijangkau.",
+      "submitting": "Memproses...",
+      "or": "atau",
+      "haveAccount": "Sudah punya akun?",
+      "login": "Masuk"
+    }
+  },
+  "Payment": {
+    "plans": {
+      "eyebrow": "PAKET IMMERSE",
+      "title": "Pilih paket belajarmu.",
+      "description": "Lihat harga dan kredit harian yang tersedia. PPN 11% ditambahkan pada paket Pro dan Max.",
+      "freePlan": "Gratis",
+      "paidPlan": "Paket berbayar",
+      "forever": "selamanya",
+      "perMonth": "bulan",
+      "dailyCredits": "kredit AI per hari",
+      "taxNotice": "Belum termasuk PPN {rate}%.",
+      "basicUnavailable": "Aktivasi Basic belum tersedia",
+      "selectPlan": "Pilih paket"
+    },
+    "checkout": {
+      "eyebrow": "CHECKOUT MIDTRANS",
+      "title": "Rincian tagihan akun",
+      "statusPending": "Menunggu pembayaran",
+      "planLabel": "Paket yang dipilih",
+      "oneMonth": "1 bulan kalender",
+      "amount": "Harga paket",
+      "tax": "PPN ({rate}%)",
+      "total": "Total tagihan",
+      "paymentMethod": "Pilih metode pembayaran",
+      "qris": "QRIS",
+      "qrisDescription": "Bayar dengan aplikasi perbankan atau dompet digital yang mendukung QRIS.",
+      "bankTransfer": "Transfer bank",
+      "bankTransferDescription": "Pilih bank yang tersedia di halaman pembayaran Midtrans.",
+      "mersiTitle": "Mersi siap menemanimu",
+      "mersiDescription": "Setelah pembayaran berhasil diverifikasi, masa aktif paket dimulai.",
+      "mersiAlt": "Maskot Mersi, kucing oranye dengan topi biru terbalik dan hoodie biru",
+      "pay": "Lanjutkan ke Midtrans",
+      "processing": "Membuka pembayaran…",
+      "backToPlans": "Kembali ke pilihan paket",
+      "login": "Masuk ke akun",
+      "loginRequired": "Masuk terlebih dahulu untuk melanjutkan checkout.",
+      "activeSubscriptionExists": "Akunmu sudah memiliki paket aktif. Paket baru belum dapat dibeli.",
+      "paymentUnavailable": "Layanan pembayaran belum dikonfigurasi.",
+      "checkoutError": "Checkout tidak dapat dimulai. Coba lagi beberapa saat."
+    }
+  },
+  "Dashboard": {
+    "navigationLabel": "Navigasi aplikasi",
+    "navHome": "Beranda",
+    "navStudy": "Ruang belajar",
+    "navVocabulary": "Kosakata",
+    "navProfile": "Profil",
+    "eyebrow": "Ruang belajar",
+    "title": "Hai, selamat datang lagi.",
+    "description": "Mulai dari satu video. Tidak harus yang panjang.",
+    "cardTitle": "Mulai dari videomu sendiri",
+    "cardDescription": "Tempel tautan video atau unggah berkas subtitle saat fitur itu sudah terhubung.",
+    "accountReady": "Pastikan akunmu siap",
+    "continueEyebrow": "Lanjutkan belajar",
+    "continueTitle": "Video pertamamu menunggu di sini.",
+    "continueBody": "Tempel tautan video favoritmu dan kita belajar dari adegan yang kamu suka.",
+    "continueCta": "Buka ruang belajar",
+    "sampleTag": "Sesi contoh",
+    "progressEyebrow": "Sedikit demi sedikit",
+    "progressTitle": "Progres belajarmu",
+    "wordsSaved": "kata tersimpan",
+    "videosStudied": "video dipelajari",
+    "studyDays": "hari belajar",
+    "progressEmpty": "Angka ini muncul setelah kamu mulai belajar.",
+    "wordsEyebrow": "Koleksi kecilmu",
+    "wordsTitle": "Kata tersimpan",
+    "wordsEmpty": "Kata yang kamu simpan akan mampir di sini.",
+    "wordsEmptyCta": "Buka ruang belajar"
+  },
+  "Study": {
+    "eyebrow": "Ruang menonton",
+    "title": "Belajar lewat adegan.",
+    "videoEmptyTitle": "Video belum terhubung.",
+    "videoEmptyBody": "Tempel tautan video untuk mulai belajar.",
+    "play": "Putar",
+    "pause": "Jeda",
+    "seekLabel": "Posisi video",
+    "timeText": "{current} dari {duration}",
+    "speedLabel": "Kecepatan",
+    "speedNormal": "1×",
+    "speedFast": "1,5×",
+    "transcriptEyebrow": "Kata-kata di layar",
+    "transcriptTitle": "Transkrip",
+    "transcriptEmpty": "Transkrip belum tersedia untuk video ini.",
+    "transcriptEmptyCta": "Coba video lain",
+    "transcriptError": "Transkrip gagal dimuat.",
+    "retry": "Coba lagi",
+    "saveWord": "Simpan {word}",
+    "removeWord": "Hapus {word} dari kosakata",
+    "savedTag": "Tersimpan",
+    "seekTo": "Lompat ke {time}",
+    "practiceEyebrow": "Sesudah menonton",
+    "practiceTitle": "Latihan singkat",
+    "practiceVocabulary": "Kosakata",
+    "practiceFlashcards": "Latihan kata",
+    "mersiName": "Mersi",
+    "mersiRole": "Teman belajarmu",
+    "mersiQuote": "Kalau ada kata yang bikin penasaran, simpan aja. Nanti kita ulang bareng.",
+    "noteEyebrow": "Catatan belajar",
+    "noteTitle": "Satu langkah kecil.",
+    "noteBody": "Menonton ulang bagian yang sama juga bagian dari belajar."
+  },
+  "Vocabulary": {
+    "eyebrow": "Koleksi kata dari ceritamu",
+    "title": "Kosakata saya",
+    "description": "Kata baru, diingat dengan caramu sendiri.",
+    "practice": "Latihan kata",
+    "searchLabel": "Cari kata",
+    "searchPlaceholder": "Cari kata atau arti…",
+    "sortLabel": "Urutkan daftar",
+    "sortNewest": "Terbaru",
+    "sortAz": "A–Z",
+    "count": "{count, plural, one {# kata} other {# kata}}",
+    "practiceOne": "Latih {word}",
+    "review": "Latih",
+    "delete": "Hapus {word}",
+    "deleteConfirm": "Hapus?",
+    "cancel": "Batal",
+    "emptyTitle": "Belum ada kata tersimpan.",
+    "emptyBody": "Simpan satu kata saat menonton, nanti muncul di sini.",
+    "emptyCta": "Buka ruang belajar",
+    "noResultsTitle": "Tidak ada kata yang cocok.",
+    "noResultsBody": "Coba kata lain atau ubah urutan.",
+    "errorTitle": "Daftar kata belum bisa dimuat."
+  },
+  "Flashcards": {
+    "eyebrow": "Ulangi tanpa terburu-buru",
+    "title": "Flashcards",
+    "description": "Balik kartu untuk lihat artinya.",
+    "sessionLabel": "Sesi latihan",
+    "counter": "{current} / {total}",
+    "progressLabel": "Progres sesi",
+    "reveal": "Balik kartu untuk lihat arti",
+    "revealBack": "Balik kembali ke kata",
+    "again": "Masih asing",
+    "known": "Sudah nempel",
+    "revealFirst": "Balik dulu",
+    "hint": "Spasi untuk balik, panah untuk pindah.",
+    "manage": "Kelola kata tersimpan",
+    "doneTitle": "Sesi selesai.",
+    "doneBody": "{known} dari {total} kata sudah nempel.",
+    "doneRepeat": "Ulangi yang masih asing",
+    "doneBack": "Kembali ke kosakata",
+    "emptyTitle": "Belum ada kartu.",
+    "emptyBody": "Simpan kata dulu, lalu kembali ke sini.",
+    "emptyCta": "Buka ruang belajar",
+    "errorTitle": "Sesi belum bisa dimuat."
+  },
+  "Profile": {
+    "eyebrow": "Profil pengguna",
+    "title": "Akun & preferensi",
+    "description": "Informasi sesi belajar dan bahasa pilihanmu.",
+    "nameLabel": "Nama pengguna",
+    "emailLabel": "Email terdaftar",
+    "targetLangLabel": "Bahasa yang dipelajari",
+    "sourceLangLabel": "Bahasa pengantar",
+    "storageNotice": "Data sesi belajar saat ini tersimpan lokal di browser.",
+    "backToDashboard": "Kembali ke Beranda"
+  },
+  "Common": {
+    "savedToast": "Kata disimpan.",
+    "removedToast": "Kata dihapus.",
+    "undo": "Urungkan",
+    "dismiss": "Tutup notifikasi",
+    "retry": "Coba lagi",
+    "cancel": "Batal",
+    "loading": "Memuat…",
+    "errorGeneric": "Ada yang belum bisa dimuat."
+  }
+}

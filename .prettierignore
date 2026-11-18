@@ -1,0 +1,11 @@
+**/node_modules/**
+**/.next/**
+**/.turbo/**
+**/.cache/**
+**/dist/**
+**/build/**
+**/out/**
+**/coverage/**
+**/*.tsbuildinfo
+apps/api/src/generated/prisma/**
+pnpm-lock.yaml

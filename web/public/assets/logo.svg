@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="80" viewBox="0 0 240 80" role="img" aria-label="Immerse logo">
+  <rect x="8" y="8" width="56" height="34" rx="10" fill="#FFF3D6" stroke="#0F0F0F" stroke-width="4"/>
+  <circle cx="26" cy="25" r="4" fill="#0F0F0F"/>
+  <circle cx="46" cy="25" r="4" fill="#0F0F0F"/>
+  <rect x="16" y="48" width="56" height="22" rx="8" fill="#C6F432" stroke="#0F0F0F" stroke-width="4"/>
+  <text x="78" y="52" font-family="'Archivo Black',system-ui,sans-serif" font-size="36" fill="#0F0F0F" letter-spacing="-1">IMMERSE</text>
+</svg>

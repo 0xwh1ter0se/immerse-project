@@ -1,0 +1,69 @@
+---
+description: Immerse — brand, design system neo-brutalism, dan aturan implementasi
+alwaysApply: true
+---
+
+# Immerse — konteks proyek
+
+Produk: web belajar bahasa dari video pilihan user sendiri (film, podcast, kuliah, vlog).
+Input link → subtitle ganda (atas = bahasa target, bawah = bahasa ibu) → tabel transkrip + grammar → asisten AI.
+Brand: **Immerse**. Domain: `immerse.app`. AI assistant: **Mersi** (dari i**mmerse**).
+
+> Nama masih sementara. Ada potensi konflik trademark di kelas 9/41/42. Cek sebelum produksi.
+
+## Stack (keputusan CTO)
+
+Status sekarang: mockup statis, HTML + CSS murni, tanpa build step.
+Belum ada backend, belum ada pemrosesan video. Jangan tambah dependency sebelum ada kebutuhan nyata.
+
+Saat butuh stack aplikasi: **React + TypeScript + Vite + Tailwind** (CSS-first, token design, konsisten dengan ecosystem Cursor). Backend: **Golang** untuk API + worker transkrip. Jangan setel prematurely — konfirmasi ke CEO dulu.
+
+## Design system — neo-brutalism urban
+
+Token ada di `styles.css` (`:root`). Jangan bikin warna/ukuran baru tanpa menambah token dulu.
+
+| Token | Nilai | Pakai untuk |
+|---|---|---|
+| `--ink` | `#0F0F0F` | semua border, teks, shadow |
+| `--paper` | `#F5F1E6` | background utama, nav, footer |
+| `--yellow` | `#FFF3D6` | kartu 01, step 1, tag, fokus input |
+| `--pink` | `#FFD9E8` | kartu 02, section alt, `.hl` |
+| `--cyan` | `#7DF0FF` | kartu 03, step 3, chip hover, `.mersi-chip` |
+| `--lime` | `#C6F432` | CTA, `.btn--primary`, baris subtitle bawah |
+
+Aturan wajib:
+- Border `3px solid var(--ink)` untuk elemen, `4px` untuk blok besar.
+- Shadow keras tanpa blur: `6px 6px 0 var(--ink)` (kecil), `10px 10px 0` (besar).
+- Font display: `Archivo Black` (heading, tombol, nomor kartu). Body: `Space Grotesk`.
+- Heading uppercase. Body sentence case.
+- Sudut membulat kecil (`12–20px`), bukan pill kecuali `.chip`/`.tag`.
+- Latar polkadot: `radial-gradient(rgba(15,15,15,.08) 1.4px,transparent 1.4px)` + `background-size:26px 26px`.
+- Aksen playful: `transform: rotate(-1.5deg)` pada `.hl`, kartu hover naik 3px.
+- Font dimuat dari Google Fonts, bukan di-bundle.
+
+## Aksesibilitas (bukan opsional)
+
+- Semua heading uppercase punya `text-transform` — tetap pertahankan hierarchy semantik.
+- Skip link `.skip` wajib ada.
+- Fokus: `outline:3px dashed var(--ink)` — jangan dihapus tanpa pengganti.
+- `prefers-reduced-motion` disables `scroll-behavior:smooth` dan transisi.
+- Input form wajib punya `<label>` (pakai `.sr` kalau visual tidak perlu).
+- Kontras teks di atas `--pink`/`--cyan`/`--yellow` pakai `--ink` (hitam), bukan putih.
+- Emoji pada `.side__head`/`.mersi-chip` dekoratif — pastikan selalu ada teks setara di sebelahnya.
+
+## Struktur
+
+```
+index.html      # satu halaman, section: hero / fitur / cara kerja / mersi / cta
+styles.css      # token di :root, lalu per-section
+assets/logo.svg # wordmark
+assets/mascot.svg # maskot Mersi (dua baris subtitle)
+assets/favicon.svg
+```
+
+## Rules
+
+- YAGNI: hapus sebelum tambah. Tanpa dependency baru untuk hal yang bisa 5 baris CSS.
+- Setiap perubahan: sebut file + selector yang diubah.
+- Jangan commit/push/deploy tanpa perintah CEO.
+- Jangan klaim UI "jalan" tanpa screenshot atau cek Lighthouse.

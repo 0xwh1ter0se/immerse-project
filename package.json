@@ -1,0 +1,23 @@
+{
+  "name": "immerse",
+  "private": true,
+  "packageManager": "pnpm@12.21.0",
+  "scripts": {
+    "build": "turbo run build",
+    "check": "turbo run check",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint --filter=@immerse/web --filter=@immerse/api --filter=@immerse/shared",
+    "format": "prettier --write \"apps/**/*.{js,jsx,ts,tsx,mjs,cjs,json,css,md,yml,yaml}\" \"packages/**/*.{js,jsx,ts,tsx,mjs,cjs,json,css,md,yml,yaml}\" package.json turbo.json eslint.config.mjs .prettierrc.json",
+    "format:check": "prettier --check \"apps/**/*.{js,jsx,ts,tsx,mjs,cjs,json,css,md,yml,yaml}\" \"packages/**/*.{js,jsx,ts,tsx,mjs,cjs,json,css,md,yml,yaml}\" package.json turbo.json eslint.config.mjs .prettierrc.json",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.4.6",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2",
+    "typescript-eslint": "^8.46.4",
+    "turbo": "^2.11.11"
+  }
+}
