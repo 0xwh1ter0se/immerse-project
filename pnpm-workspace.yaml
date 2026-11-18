@@ -2,14 +2,10 @@ packages:
   - apps/*
   - packages/*
 
-onlyBuiltDependencies:
-  - "@parcel/watcher"
-  - "@prisma/client"
-  - "@prisma/engines"
-  - "@swc/core"
-  - bcryptjs
-  - esbuild
-  - msgpackr-extract
-  - prisma
-  - sharp
-
+allowBuilds:
+  '@parcel/watcher': true
+  '@prisma/engines': true
+  '@swc/core': true
+  esbuild: true
+  msgpackr-extract: true
+  prisma: true
