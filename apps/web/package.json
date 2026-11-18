@@ -28,9 +28,13 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "@parcel/watcher",
+      "@prisma/client",
+      "@prisma/engines",
       "@swc/core",
+      "bcryptjs",
       "esbuild",
       "msgpackr-extract",
+      "prisma",
       "sharp"
     ]
   }
