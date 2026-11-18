@@ -5,6 +5,7 @@ RUN npm install -g pnpm@12.21.0
 
 FROM base AS builder
 WORKDIR /app
+ENV DATABASE_URL="postgresql://placeholder:placeholder@localhost:5432/placeholder"
 COPY pnpm-lock.yaml pnpm-workspace.yaml package.json turbo.json .npmrc ./
 COPY packages ./packages
 COPY apps/api ./apps/api
