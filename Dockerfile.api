@@ -9,6 +9,8 @@ COPY pnpm-lock.yaml pnpm-workspace.yaml package.json turbo.json .npmrc ./
 COPY packages ./packages
 COPY apps/api ./apps/api
 RUN pnpm install --frozen-lockfile
+RUN pnpm --filter @immerse/shared build
+RUN pnpm --filter @immerse/api prisma:generate
 RUN pnpm --filter @immerse/api build
 
 FROM base AS runner

@@ -21,11 +21,17 @@ app.use((request, response, next) => {
   }
 
   if (origin) {
-    if (origin !== env.WEB_ORIGIN) {
+    const isAllowed =
+      origin === env.WEB_ORIGIN ||
+      origin.endsWith(".vercel.app") ||
+      origin.includes("localhost") ||
+      origin.includes("127.0.0.1");
+
+    if (!isAllowed) {
       response.status(403).json({ error: "FORBIDDEN_ORIGIN" });
       return;
     }
-    response.setHeader("Access-Control-Allow-Origin", env.WEB_ORIGIN);
+    response.setHeader("Access-Control-Allow-Origin", origin);
     response.setHeader("Vary", "Origin");
     response.setHeader("Access-Control-Allow-Credentials", "true");
   }
